@@ -1,0 +1,29 @@
+{
+ "updated": "2026-11-10T06:25:00Z",
+ "items": [
+  {
+   "id": "sample1",
+   "title": "Welcome to Habari Pulse",
+   "summary": "Your private Kenyan news and jobs feed is ready. Run the scraper to replace these sample items with live stories.",
+   "text": "Habari Pulse keeps full articles offline. Like or dislike stories and the ranking updates for you. The scraper runs every few hours and writes data/feed.json so the app stays fast.",
+   "source": "Habari Pulse",
+   "category": "Kenya",
+   "url": "https://github.com",
+   "image": null,
+   "time": "2026-11-10T06:00:00Z",
+   "sample": true
+  },
+  {
+   "id": "sample2",
+   "title": "How to get the APK",
+   "summary": "Run the Build APK action, then download HabariPulse.apk from Releases.",
+   "text": "Once the Actions workflow has run you will see real headlines. View original always links back to the publisher.",
+   "source": "Habari Pulse",
+   "category": "Jobs",
+   "url": "https://github.com",
+   "image": null,
+   "time": "2026-11-10T05:30:00Z",
+   "sample": true
+  }
+ ]
+}
