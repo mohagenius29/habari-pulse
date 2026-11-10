@@ -1,0 +1,22 @@
+{
+  "x_query": "(Kenya OR Nairobi OR #Kenya) -is:retweet lang:en",
+  "x_min_likes": 300,
+  "sources": [
+    {"type": "rss", "name": "Nation Africa", "url": "https://nation.africa/kenya/rss", "category": "Kenya"},
+    {"type": "rss", "name": "The Standard", "url": "https://www.standardmedia.co.ke/rss/headlines.php", "category": "Kenya"},
+    {"type": "rss", "name": "Citizen Digital", "url": "https://www.citizen.digital/feed", "category": "Kenya"},
+    {"type": "rss", "name": "Capital FM", "url": "https://www.capitalfm.co.ke/news/feed/", "category": "Kenya"},
+    {"type": "rss", "name": "Business Daily", "url": "https://www.businessdailyafrica.com/bd/rss", "category": "Kenya"},
+    {"type": "gn", "name": "Google News Kenya", "q": "Kenya when:1d", "category": "Kenya"},
+    {"type": "gn", "name": "Jobs Kenya", "q": "jobs OR employment Kenya when:1d", "category": "Jobs"},
+    {"type": "rss", "name": "BBC Africa", "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml", "category": "World"},
+    {"type": "rss", "name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml", "category": "World"},
+    {"type": "rss", "name": "Reuters World", "url": "https://www.reutersagency.com/feed/?taxonomy=best-topics&post_type=best", "category": "World"},
+    {"type": "rss", "name": "Goal.com", "url": "https://www.goal.com/feeds/en/news", "category": "Football"},
+    {"type": "rss", "name": "ESPN FC", "url": "https://www.espn.com/espn/rss/soccer/news", "category": "Football"},
+    {"type": "gn", "name": "Football Kenya", "q": "football OR soccer Kenya when:1d", "category": "Football"},
+    {"type": "rss", "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "category": "AI"},
+    {"type": "rss", "name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "category": "AI"},
+    {"type": "gn", "name": "AI News", "q": "artificial intelligence OR AI when:1d", "category": "AI"}
+  ]
+}

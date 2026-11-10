@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Habari Pulse</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icons/icon-192.png"><meta name="theme-color" content="#0b3d2e">
+<style>
+:root{--bg:#f6f5f0;--card:#fff;--tx:#1b1f1d;--mu:#6b726e;--ac:#0b6b4a;--ln:#e4e2d8}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1311;--card:#181e1b;--tx:#e8ece9;--mu:#8f9993;--ac:#3fbf8c;--ln:#262e2a}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.5 system-ui,sans-serif;padding-top:env(safe-area-inset-top)}
+header{position:sticky;top:0;background:var(--bg);z-index:5;padding:10px 12px 6px;border-bottom:1px solid var(--ln)}
+h1{margin:0 0 8px;font-size:20px;color:var(--ac)}
+#chips{display:flex;gap:8px;overflow-x:auto}.chip{border:1px solid var(--ln);background:var(--card);color:var(--tx);padding:6px 14px;border-radius:99px;white-space:nowrap;font:inherit;font-size:14px}
+.chip.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+main{max-width:640px;margin:0 auto;padding:12px}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:14px;padding:12px;margin-bottom:12px;display:flex;flex-direction:column;gap:8px}
+.card h2{margin:0;font-size:17px;line-height:1.35}.meta{font-size:13px;color:var(--mu)}.actions{display:flex;gap:8px;margin-top:4px}
+.btn{border:1px solid var(--ln);background:transparent;color:var(--tx);padding:6px 12px;border-radius:8px;font:inherit;font-size:13px;cursor:pointer}
+.btn:hover{background:var(--ln)}.btn.like{color:var(--ac)}.btn.dislike{color:#c44}
+.article{white-space:pre-wrap;font-size:15px;line-height:1.55;margin:0}.empty{text-align:center;color:var(--mu);padding:40px 20px}
+footer{text-align:center;padding:20px;font-size:13px;color:var(--mu)}
+</style></head><body>
+<header>
+ <h1>Habari Pulse</h1>
+ <div id="chips"></div>
+</header>
+<main id="feed"></main>
+<footer>Articles belong to their publishers · View original for full credit</footer>
+<script>
+const CATS=["All","Kenya","World","Football","Jobs","AI","Trending on X"];
+let data={items:[]},cat="All",likes=JSON.parse(localStorage.getItem("hp_likes")||"{}");
+async function load(){
+ try{data=await(await fetch("data/feed.json?t="+Date.now())).json()}catch(e){console.error(e)}
+ renderChips();render()
+}
+function renderChips(){
+ const el=document.getElementById("chips");
+ el.innerHTML=CATS.map(c=>`<button class="chip${c===cat?" on":""}" data-c="${c}">${c}</button>`).join("");
+ el.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{cat=b.dataset.c;renderChips();render()})
+}
+function score(i){
+ const id=i.id,s=likes[id]||0;
+ return (s*1000)+(i.time||"");
+}
+function render(){
+ const items=data.items||[];
+ let list=items.filter(i=>!i.sample||items.every(x=>x.sample));
+ if(cat!=="All")list=list.filter(i=>i.category===cat);
+ list.sort((a,b)=>score(b).localeCompare(score(a))||b.time.localeCompare(a.time));
+ const el=document.getElementById("feed");
+ if(!list.length){el.innerHTML="<div class=empty>No stories yet. Run the Update feed action.</div>";return}
+ el.innerHTML=list.map(i=>{
+  const s=likes[i.id]||0;
+  return `<article class=card data-id="${i.id}">
+   <h2>${esc(i.title)}</h2>
+   <div class=meta>${esc(i.source)} · ${esc(i.category)} · ${relTime(i.time)}</div>
+   <p class=article>${esc(i.text||i.summary||"")}</p>
+   <div class=actions>
+    <button class="btn like" data-v=1>👍 ${s>0?s:""}</button>
+    <button class="btn dislike" data-v=-1>👎 ${s<0?-s:""}</button>
+    <a class=btn href="${esc(i.url)}" target=_blank rel=noopener>View original</a>
+   </div>
+  </article>`
+ }).join("");
+ el.querySelectorAll(".btn.like,.btn.dislike").forEach(b=>{
+  b.onclick=()=>{
+   const id=b.closest(".card").dataset.id,v=+b.dataset.v;
+   likes[id]=(likes[id]||0)+v; if(!likes[id])delete likes[id];
+   localStorage.setItem("hp_likes",JSON.stringify(likes));render()
+  }
+ })
+}
+function esc(s){return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+function relTime(t){try{const d=new Date(t),n=Date.now()-d;if(n<36e5)return Math.floor(n/6e4)+"m";if(n<864e5)return Math.floor(n/36e5)+"h";return Math.floor(n/864e5)+"d"}catch(e){return""}}
+if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js");
+load();
+</script></body></html>
