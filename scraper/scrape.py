@@ -1,134 +1,85 @@
-#!/usr/bin/env python3
-"""Habari Pulse feed scraper – Kenyan + world news, jobs, football, AI, optional X."""
-import json, re, os, datetime as dt
+"""Collect news (RSS + Google News queries + optional X), filter junk, extract full text, write data/feed.json."""
+import json, hashlib, re, time, os, pathlib, datetime as dt, urllib.parse as up
 from concurrent.futures import ThreadPoolExecutor
-from pathlib import Path
-import feedparser, requests
+import feedparser, trafilatura, requests
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "feed.json"
-MAX_AGE_DAYS = 3
-PER_CAT = 12
-BAD = re.compile(
-    r"(porn|xxx|adult|sex|nude|gambling|casino|bet365|malware|phishing|crypto.?scam|viagra|cialis)",
-    re.I,
-)
-BAD_DOMAINS = {"xhamster.com", "pornhub.com", "xnxx.com", "xvideos.com", "onlyfans.com"}
+MAX_AGE_DAYS, PER_SOURCE, PER_CAT, TEXT_MAX = 10, 8, 70, 6000
+UA = "Mozilla/5.0 (compatible; HabariPulse/1.0)"
+BAD = re.compile(r"\b(porn\w*|xxx|nsfw|onlyfans|nude\w*|naked|sex ?tape|escort\w*|hookup\w*|erotic\w*|cam ?girl\w*|18\+|casino|free ?bets?|betting tips|crypto giveaway|airdrop|phishing kit|cracked (?:software|apk)|keygen|malware (?:download|builder)|get rich quick|forex signals?)\b", re.I)
+BADDOM = ("pornhub.", "xvideos.", "xnxx.", "onlyfans.", "xhamster.")
+now = lambda: dt.datetime.now(dt.timezone.utc)
 
-def now():
-    return dt.datetime.now(dt.timezone.utc)
+def ok(i):
+    blob = f'{i["title"]} {i["summary"]} {(i.get("text") or "")[:1500]}'
+    return len(i["title"]) >= 15 and not BAD.search(blob) and not any(d in (i.get("url") or "") for d in BADDOM)
 
-def ok(item):
-    t = (item.get("title") or "") + " " + (item.get("summary") or "")
-    if BAD.search(t):
-        return False
-    url = item.get("url") or ""
-    for d in BAD_DOMAINS:
-        if d in url:
-            return False
-    return True
+def when(e):
+    t = e.get("published_parsed") or e.get("updated_parsed")
+    return dt.datetime.fromtimestamp(time.mktime(t), dt.timezone.utc) if t else now()
+
+def feed_url(s):
+    return s.get("rss") or "https://news.google.com/rss/search?q=" + up.quote(s["gn"] + " when:2d") + "&hl=en-KE&gl=KE&ceid=KE:en"
 
 def collect(args):
-    src, seen = args
+    s, seen = args
     out = []
-    kind = src.get("type", "rss")
     try:
-        if kind == "rss":
-            feed = feedparser.parse(src["url"])
-            for e in feed.entries[:20]:
-                link = e.get("link") or e.get("id") or ""
-                title = (e.get("title") or "").strip()
-                if not title or not link:
-                    continue
-                summary = (e.get("summary") or e.get("description") or "")[:400]
-                summary = re.sub(r"<[^>]+>", " ", summary).strip()
-                published = e.get("published") or e.get("updated") or now().isoformat()
-                try:
-                    published = dt.datetime(*e.published_parsed[:6], tzinfo=dt.timezone.utc).isoformat()
-                except Exception:
-                    pass
-                iid = e.get("id") or link
-                out.append({
-                    "id": iid,
-                    "title": title[:180],
-                    "summary": summary[:300],
-                    "text": summary[:800] if len(summary) > 100 else title + "\n\n" + summary,
-                    "source": src.get("name") or feed.feed.get("title") or "RSS",
-                    "category": src.get("category", "World"),
-                    "url": link,
-                    "image": None,
-                    "time": published,
-                })
-        elif kind == "gn":
-            # Google News RSS search
-            q = src["q"]
-            url = f"https://news.google.com/rss/search?q={requests.utils.quote(q)}&hl=en-KE&gl=KE&ceid=KE:en"
-            feed = feedparser.parse(url)
-            for e in feed.entries[:15]:
-                link = e.get("link") or ""
-                title = (e.get("title") or "").strip()
-                if not title:
-                    continue
-                summary = re.sub(r"<[^>]+>", " ", e.get("summary") or "")[:300].strip()
-                published = now().isoformat()
-                try:
-                    published = dt.datetime(*e.published_parsed[:6], tzinfo=dt.timezone.utc).isoformat()
-                except Exception:
-                    pass
-                out.append({
-                    "id": link or title,
-                    "title": title[:180],
-                    "summary": summary,
-                    "text": summary or title,
-                    "source": src.get("name", "Google News"),
-                    "category": src.get("category", "Kenya"),
-                    "url": link,
-                    "image": None,
-                    "time": published,
-                })
+        feed = feedparser.parse(feed_url(s), agent=UA)
     except Exception as ex:
-        print("EMPTY", src.get("name") or src.get("url"), ex)
+        print("FAIL", s["n"], ex); return out
+    if not feed.entries:
+        print("EMPTY", s["n"], "- check this source URL")
+    for e in feed.entries[:PER_SOURCE]:
+        url = e.get("link")
+        if not url: continue
+        id_ = hashlib.sha1(url.encode()).hexdigest()[:12]
+        if id_ in seen: continue
+        gn = "news.google.com" in url
+        title = re.sub(r"\s+-\s+[^-]{2,40}$", "", e.get("title", "").strip()) if gn else e.get("title", "").strip()
+        src = (e.get("source") or {}).get("title") or s["n"] if gn else s["n"]
+        text = meta = None
+        if not gn:
+            try:
+                html = trafilatura.fetch_url(url)
+                if html:
+                    text = trafilatura.extract(html, include_comments=False, include_tables=False)
+                    meta = trafilatura.extract_metadata(html)
+            except Exception as ex:
+                print("extract failed", url, ex)
+        text = (text or e.get("summary") or "")[:TEXT_MAX]
+        summary = (text[:300] if text else e.get("summary", "")[:300]).strip()
+        out.append({
+            "id": id_,
+            "title": title[:180],
+            "summary": summary,
+            "text": text or summary,
+            "source": src,
+            "category": s.get("c", "World"),
+            "url": url,
+            "image": (meta.image if meta else None),
+            "time": when(e).isoformat(),
+        })
     return out
 
 def x_items(cfg):
-    token = os.environ.get("X_BEARER_TOKEN")
-    if not token:
-        return []
+    tok = os.environ.get("X_BEARER_TOKEN")
+    if not tok: return []
     out = []
-    try:
-        headers = {"Authorization": f"Bearer {token}"}
-        r = requests.get(
-            "https://api.twitter.com/2/tweets/search/recent",
-            params={
-                "query": cfg.get("x_query", "(Kenya OR Nairobi OR #Kenya) -is:retweet lang:en"),
-                "max_results": 20,
-                "tweet.fields": "created_at,public_metrics,author_id",
-                "expansions": "author_id",
-                "user.fields": "username",
-            },
-            headers=headers,
-            timeout=20,
-        )
-        r.raise_for_status()
-        j = r.json()
-        users = {u["id"]: u["username"] for u in j.get("includes", {}).get("users", [])}
-        good = [t for t in j.get("data", []) if t["public_metrics"]["like_count"] >= cfg.get("x_min_likes", 300)]
+    for q in cfg.get("x", []):
+        try:
+            r = requests.get("https://api.twitter.com/2/tweets/search/recent", headers={"Authorization": "Bearer " + tok}, timeout=20,
+                params={"query": q + " -is:retweet -is:reply lang:en", "max_results": 50, "tweet.fields": "public_metrics,created_at",
+                        "expansions": "author_id", "user.fields": "username"}).json()
+        except Exception as ex:
+            print("X failed", ex); continue
+        users = {u["id"]: u["username"] for u in r.get("includes", {}).get("users", [])}
+        good = [t for t in r.get("data", []) if t["public_metrics"]["like_count"] >= cfg.get("x_min_likes", 300)]
         for t in sorted(good, key=lambda t: -t["public_metrics"]["like_count"])[:6]:
-            u = users.get(t["author_id"], "i")
-            txt = re.sub(r"https?://\S+", "", t["text"]).strip()
-            out.append({
-                "id": "x" + t["id"],
-                "title": txt[:120],
-                "summary": txt[:220],
-                "text": f'{txt}\n\n{t["public_metrics"]["like_count"]} likes, {t["public_metrics"]["retweet_count"]} reposts',
-                "source": "X @" + u,
-                "category": "Trending on X",
-                "url": f"https://x.com/{u}/status/{t['id']}",
-                "image": None,
-                "time": t["created_at"],
-            })
-    except Exception as ex:
-        print("X error", ex)
+            u = users.get(t["author_id"], "i"); txt = re.sub(r"https?://\S+", "", t["text"]).strip()
+            out.append({"id": "x" + t["id"], "title": txt[:120], "summary": txt[:220], "text": f'{txt}\n\n{t["public_metrics"]["like_count"]} likes, {t["public_metrics"]["retweet_count"]} reposts',
+                        "source": "X @" + u, "category": "Trending on X", "url": f'https://x.com/{u}/status/{t["id"]}', "image": None, "time": t["created_at"]})
     return out
 
 def main():
@@ -138,20 +89,15 @@ def main():
     with ThreadPoolExecutor(8) as ex:
         for batch in ex.map(collect, [(s, seen) for s in cfg["sources"]]):
             for i in batch:
-                if ok(i):
-                    seen[i["id"]] = i
+                if ok(i): seen[i["id"]] = i
     for i in x_items(cfg):
-        if ok(i):
-            seen[i["id"]] = i
+        if ok(i): seen[i["id"]] = i
     cutoff = now() - dt.timedelta(days=MAX_AGE_DAYS)
     items, titles, count = [], set(), {}
     for i in sorted(seen.values(), key=lambda i: i["time"], reverse=True):
         k = re.sub(r"\W+", "", i["title"].lower())[:60]
-        if dt.datetime.fromisoformat(i["time"].replace("Z", "+00:00")) < cutoff or k in titles or count.get(i["category"], 0) >= PER_CAT:
-            continue
-        titles.add(k)
-        count[i["category"]] = count.get(i["category"], 0) + 1
-        items.append(i)
+        if dt.datetime.fromisoformat(i["time"].replace("Z", "+00:00")) < cutoff or k in titles or count.get(i["category"], 0) >= PER_CAT: continue
+        titles.add(k); count[i["category"]] = count.get(i["category"], 0) + 1; items.append(i)
     OUT.write_text(json.dumps({"updated": now().isoformat(), "items": items}, ensure_ascii=False, indent=1))
     print(len(items), "items", count)
 
