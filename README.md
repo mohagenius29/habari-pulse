@@ -1,14 +1,14 @@
-# Habari Pulse
-Private Kenyan news and jobs feed. Installable PWA, full articles saved ahead of time, likes and dislikes re-rank the feed on your phone.
+# Habari Pulse (Android)
+Native Android app (package `com.mohart.habaripulse`) for Kenyan news, jobs, world, football and AI. Full articles are stored ahead of time, and likes and dislikes re-rank the feed on the phone.
 
-## Set up
-1. Create a GitHub repo and upload all these files (keep the `.github` folder).
-2. Settings, Pages, Deploy from branch, `main` / root. Your app is at `https://<you>.github.io/<repo>/`.
-3. `scraper/sources.json` already lists Kenyan, world, football and AI sources. Add or remove lines freely: `rss` = a feed URL, `gn` = a Google News search. After the first run, open the Actions log and look for lines starting `EMPTY`: those feeds need a different URL.
-3b. Optional, for trending X posts: add a repo secret `X_BEARER_TOKEN` (needs an X API plan). Without it, X is skipped.
-4. Actions tab, "Update feed", Run workflow. It then repeats every 3 hours.
-5. Open the Pages link on your phone, browser menu, Add to Home screen.
+## Get the APK
+1. Create a **public** GitHub repo and upload everything here (keep `.github`). Public matters: the app downloads `data/feed.json` from the repo.
+2. Actions tab: run **Update feed** once, then **Build APK**.
+3. Open the repo's **Releases** page, tag `apk-latest`, download `HabariPulse.apk` on your phone and install it (allow "install unknown apps" for your browser).
+4. The feed refreshes every 3 hours on GitHub. The app syncs when you open it, and works offline with the last copy.
 
-Sample items disappear once the scraper writes real ones. Articles belong to their publishers: keep this private; "View original" credits the source.
-
-The scraper drops adult, gambling-spam and malware-style items by keyword and domain. Edit the `BAD` list in `scraper/scrape.py` to tighten it.
+## Sources
+`scraper/sources.json`: `rss` = feed URL, `gn` = Google News search. In the Update feed log, lines starting `EMPTY` need a different URL.
+Optional trending X posts: add a repo secret `X_BEARER_TOKEN` (needs an X API plan).
+Adult, gambling-spam and malware-style items are dropped by keyword and domain (`BAD` list in `scraper/scrape.py`).
+Articles belong to their publishers: keep this app private; "View original" credits the source.
