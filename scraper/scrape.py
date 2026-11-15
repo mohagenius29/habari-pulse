@@ -82,6 +82,27 @@ def x_items(cfg):
                         "source": "X @" + u, "category": "Trending on X", "url": f'https://x.com/{u}/status/{t["id"]}', "image": None, "time": t["created_at"]})
     return out
 
+STOP = set("the a an and or of to in on for with at by from is are was were be as it its this that after over into new says say will has have not but about than more up out".split())
+HOT_WORDS = re.compile(r"\b(breaking|urgent|just in|launch(?:es|ed)?|unveil\w*|record|dies|dead|killed|wins?|champions?|final|resigns?|arrested|strike|outage|released?|announces?)\b", re.I)
+
+def toks(t):
+    return {w for w in re.findall(r"[a-z0-9]{4,}", t.lower()) if w not in STOP}
+
+def score_hot(items):
+    """buzz = how many different sources cover the same story; hot = worth a phone notification."""
+    T = [toks(i["title"]) for i in items]
+    for n, i in enumerate(items):
+        srcs = {i["source"]}
+        for m, j in enumerate(items):
+            if m == n or not T[n] or not T[m] or j["source"] in srcs: continue
+            if len(T[n] & T[m]) / min(len(T[n]), len(T[m])) >= 0.6 and len(T[n] & T[m]) >= 3: srcs.add(j["source"])
+        i["buzz"] = len(srcs)
+        i["ts"] = int(dt.datetime.fromisoformat(i["time"].replace("Z", "+00:00")).timestamp())
+        likes = re.search(r"(\d+) likes", i.get("text", "")[-60:]) if i["category"] == "Trending on X" else None
+        pts = 0
+        i["hot"] = bool(i["category"] != "Jobs" and (i["buzz"] >= 3 or (likes and int(likes.group(1)) >= 1000)
+                        or (i["buzz"] >= 2 and HOT_WORDS.search(i["title"]))))
+
 def main():
     cfg = json.loads((ROOT / "scraper" / "sources.json").read_text())
     old = json.loads(OUT.read_text()).get("items", []) if OUT.exists() else []
@@ -98,6 +119,7 @@ def main():
         k = re.sub(r"\W+", "", i["title"].lower())[:60]
         if dt.datetime.fromisoformat(i["time"].replace("Z", "+00:00")) < cutoff or k in titles or count.get(i["category"], 0) >= PER_CAT: continue
         titles.add(k); count[i["category"]] = count.get(i["category"], 0) + 1; items.append(i)
+    score_hot(items)
     OUT.write_text(json.dumps({"updated": now().isoformat(), "items": items}, ensure_ascii=False, indent=1))
     print(len(items), "items", count)
 

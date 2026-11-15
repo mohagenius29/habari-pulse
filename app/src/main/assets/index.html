@@ -28,17 +28,17 @@ function chips(){
   $("#chips").innerHTML=CATS.map(c=>`<button class="chip${c===cat?" on":""}" data-c="${c}">${c}</button>`).join("");
   $("#chips").querySelectorAll(".chip").forEach(b=>b.onclick=()=>{cat=b.dataset.c;chips();draw()});
 }
-function score(i){return ((likes[i.id]||0)*1000)+(i.time||"");}
+function score(i){return (likes[i.id]||0)*43200000+(i.ts?i.ts*1000:Date.parse(i.time)||0)+(i.hot?3600000:0);}
 function draw(){
   let list=items.filter(i=>!i.sample||items.every(x=>x.sample));
   if(cat!=="All")list=list.filter(i=>i.category===cat);
-  list.sort((a,b)=>score(b).localeCompare(score(a))||b.time.localeCompare(a.time));
+  list.sort((a,b)=>score(b)-score(a));
   const el=$("#feed");
   if(!list.length){el.innerHTML="<div class=empty>No stories yet. Run Update feed action.</div>";return;}
   el.innerHTML=list.map(i=>{
     const s=likes[i.id]||0;
     return `<article class=card data-id="${i.id}">
-      <h2>${esc(i.title)}</h2>
+      <h2>${i.hot?"🔥 ":""}${esc(i.title)}</h2>
       <div class=meta>${esc(i.source)} · ${esc(i.category)}</div>
       <p class=article>${esc(i.text||i.summary||"")}</p>
       <div class=actions>
