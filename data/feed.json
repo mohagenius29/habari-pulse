@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-19T21:04:03.656621+00:00",
+ "updated": "2026-11-19T21:56:06.100775+00:00",
  "items": [
+  {
+   "id": "f2dddf2ea7d8",
+   "title": "These tech outages are giving Y2K, AI agent style",
+   "summary": "It’s going down, as the American rapper Yung Joc might say: the airline booking systems, banking platforms, and productivity platforms. In the past two weeks, the U.S.’s top businesses have faced technical outages that have disrupted the systems that run everyday life.\nApple Pay went down. NASA’s in",
+   "text": "It’s going down, as the American rapper Yung Joc might say: the airline booking systems, banking platforms, and productivity platforms. In the past two weeks, the U.S.’s top businesses have faced technical outages that have disrupted the systems that run everyday life.\nApple Pay went down. NASA’s internal communication network went down. The FAA had to ground all flights for hours (only the third time in history since 9/11), and Microsoft was hit with an attack that took down Outlook, Teams, and Copilot for nearly two days.\nThe first thought, naturally, is an AI hacker invasion of some sort, especially after cyber hackers managed to attack fridges in a grocery store and a blood bank in France a few weeks ago. Here in the U.S., the Director of National Intelligence said these outages don’t seem related to state-sponsored terrorism, while President Trump called the issues “individual events.” Many of the companies themselves have said the outages were not caused by cyberattacks or AI attacks, but tech issues.\nOnly, there’s the fact that they all struck within a short timespan of each other, and just a few weeks after Cybersecurity’s so-called “Black October,” when a slew of also-unrelated cybersecurity incidents occurred on October 21 striking PHP, Node.js, LiteLLM, more.\nIt does seem like more than a coincidence. It’s giving AI-native Y2K, frankly.\nDave DeWalt, an investor who worked in cybersecurity for more than three decades (including as president and CEO of McAfee and as vice Chairman of the CISA Advisory Council for the Department of Homeland Security), also thinks it’s probably AI-related.\nThe technical outages are most likely the “growing pains of a security system that’s getting stronger, not weaker,” and that “AI is surfacing vulnerabilities at a speed and scale we’ve never had before through AI tools like Mythos and others,” he told TechCrunch.\nThe thing is, many of these technical flaws have always existed, but because AI is surfacing them so fast, enterprises are rushing to fix them before bad actors can exploit them. “That surge in patching is disrupting things in the short term,” he said.\nThis was, perhaps, the first moment when legacy meets modern, Anusha Iyer told TechCrunch, a software engineer and founder of the security startup Corsha. “These industrial systems were never designed to be connected, let alone securely connected in the way we are pushing them to be today,” she said.\nVirginia Senator Mark Warner, vice chair of the Senate Intel Committee, came to a similar conclusion (although investigations are still underway as to what could be happening). “These disruptions should serve as a wake-up call. It feels like every day brings another reminder that AI is moving faster than our ability to manage its consequences,” the Senator wrote on X.\nAI is reshaping how software is built, deployed, and operated, on a scale where everyone feels the sharp learning curve. Iyer cited the FAA outage as an example of legacy tech that is not as sophisticated or advanced as the technologies companies are trying to merge it with.\nIn less technical terms, she said the outage may have been caused (and preliminary findings point to this) when the FAA was trying to modernize its telecommunications infrastructure and the transition overwhelmed parts of its legacy hardware, where the new tech likely operated at a normal modern capacity while the legacy hardware couldn’t keep up.\nWhen looked at this way, she said, AI is actually getting the bad rep. “It’s not rapid adoption of AI yet causing these outages,” she said. “The fault is the rushed mix of the legacy and modern systems without a clear understanding of operational and cyber risk or the ability to gatekeep and protect the legacy systems.”\nOrganizations need a more steadfast approach to AI adoption, including more testing and prioritizing what needs to be fixed and when, DeWalt said.\nIyer added, “These industrial systems need to be segmented more tightly and more access controlled, so as modern systems are introduced, it can be phased in and risk mitigated.”\nActually, there might be a silver lining to all of this for companies (and for venture investors). DeWalt said he’d rather see these U.S. enterprises find and patch their flaws, even in this messy way, than have bad actors find and exploit those vulnerabilities in AI warfare that could cause even more national security issues.\nAnd maybe some aspiring founders were inspired by them. DeWalt expects a rise in companies focused on “AI-driven vulnerability management, autonomous remediation, safe patch testing and deployment, and resilience for the systems that keep critical infrastructure running,” he said.\n“There’s real pain in this transition as we’ve seen in the past week,” DeWalt said. “But there’s also enormous opportunity for the companies that help organizations move at AI speed without breaking things.”",
+   "source": "TechCrunch AI",
+   "category": "AI",
+   "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Muharrem-huner.jpg?resize=1200,800",
+   "time": "2026-11-19T21:42:31+00:00",
+   "buzz": 1,
+   "ts": 1795124551,
+   "hot": false
+  },
+  {
+   "id": "b89806bc3d78",
+   "title": "Haiti police say at least 34 suspected gang members killed in raid",
+   "summary": "Haiti police say at least 34 suspected gang members killed in raid\nPolice say the raid targeted the Martissant area, located on a key route out of Port-au-Prince held by gangs since 2021.\nAt least 34 suspected gang members were killed in a police operation in Martissant, a neighbourhood in Haiti’s c",
+   "text": "Haiti police say at least 34 suspected gang members killed in raid\nPolice say the raid targeted the Martissant area, located on a key route out of Port-au-Prince held by gangs since 2021.\nAt least 34 suspected gang members were killed in a police operation in Martissant, a neighbourhood in Haiti’s capital that has been under gang control for more than five years, Haitian police said.\nHaiti’s National Police, which posted footage of armoured vehicles moving through the neighbourhood, said their officers carried out the raid on Thursday with an anti-gang task force that includes personnel from Vectus Global, the private security firm founded by Blackwater founder Erik Prince.\nPolice reported no other casualties and said none of the roughly 2,500 Salvadoran troops in Haiti took part.\nThe Martissant neighbourhood is located along a key road that connects Port-au-Prince to Haiti’s western and southern cities, and was used by thousands of people daily before rival gangs began fighting to control the area in 2021.\nThe subsequent violence forced at least 19,000 people to flee their homes, according to a July 2022 UN report.\nArmed groups have since demanded payment for using the road or shot at cars that have tried to pass through, making it difficult to bring goods in and out of the city.\nSeparately, the UN-backed Gang Suppression Force said it was stepping up operations in Tabarre after months of night patrols and efforts to identify gang positions.\n“The objective is clear: not just to displace gangs, but to dismantle their hold on communities, reclaim territory, and prevent their return,” the force said on X.\nIn the central Artibonite region, the force said their troops had come under fire while clearing barricades and filling in trenches that gangs had dug along National Route 5, north of the town of Gros-Morne.\n“During the operation, gang members opened fire on GSF personnel, who responded and forced them to withdraw,” said the update on X.\nThe raid in Martissant comes as Salvadoran troops have been carrying out joint operations with Haitian police. El Salvador’s President Nayib Bukele initially sent troops to search for four Salvadoran aviation technicians who went missing after an October 18 ambush near Port-au-Prince.\nWhat began as a search for the missing men has since grown into a broader offensive against Haiti’s gangs.",
+   "source": "Al Jazeera",
+   "category": "World",
+   "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid?traffic_source=rss",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aff64cedeaf5-1795122382.jpg?resize=1920%2C1440",
+   "time": "2026-11-19T21:39:39+00:00",
+   "buzz": 1,
+   "ts": 1795124379,
+   "hot": false
+  },
+  {
+   "id": "779c3aaa135e",
+   "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+   "summary": "Anthropic becomes most valuable AI firm as shares soar in stock market debut\n- Published\nAnthropic has become one of the most valuable public companies in the world after its shares began trading on the public stock market, taking its valuation to roughly $1.76 trillion.\nThe artificial intelligence",
+   "text": "Anthropic becomes most valuable AI firm as shares soar in stock market debut\n- Published\nAnthropic has become one of the most valuable public companies in the world after its shares began trading on the public stock market, taking its valuation to roughly $1.76 trillion.\nThe artificial intelligence (AI) company's Thursday debut on the Nasdaq stock exchange was a crucial test for the industry, given the huge amount of money being poured into advancing the technology.\nAnthropic's shares flew past its allocation price of $83 per share, showing there is plenty of excitement around AI.\nYet the company, which is behind AI chatbot Claude, will remain under intense scrutiny in the months ahead to answer the key question surrounding AI: is it all worth it?\nIn just a few hours of trading, Anthropic's stock seemed to show that investors remain uncertain of where exactly AI is heading. The share price rose immediately to $111.5, sending the company's market value to almost $2 trillion, before falling by the end of the day, with shares hitting $97.\nSome investors said Anthropic's debut seemed to be a success, as shares rose roughly 17% during the day, but the broader tech market did not perform as well.\nThe tech-heavy Nasdaq Composite Index closed down nearly 2.3%. Stocks fell in the largest tech firms, including Google's parent company Alphabet (down 3%) and Amazon (down 3.9%).\nThe build-out happening around this era of AI is among the most expensive endeavours in the history of technology, with more than $1 trillion being spent in the last year alone by a handful of major tech companies.\nThe speed at which investment has grown has led to ongoing concerns of a financial bubble.\n\"Bubbles don't burst on the day of the largest deal,\" Richard Whittle, an economist with the University of Salford said. \"They burst later, if the positive future becomes suspect.\"\nWhile the basics of the technology have been around for decades, the more recent advent of more powerful computers and related components have allowed the processing of more data than ever.\nThe result has been AI chatbots that simulate human speech and operate more quickly tasks like software coding, digital image generation, and searching the internet.\nIt represents a new way of using computers that has led to the rapid rise of Anthropic, which started just five years ago and is best known as the maker of the popular AI chatbot Claude.\nAs the first purely AI company to go public, Anthropic will almost certainly see significant swings in price on the stock market going forward, according to Ben Barringer, who leads technology research at Quilter Cheviot.\nThe \"initial exuberance\" will wear off, Barringer said, pointing to what happened with SpaceX earlier this year.\nThat company, led by Elon Musk, saw shares jump by about 10% on the first day of trading, taking the company to a record-breaking valuation of $2.2 trillion.\nWithin a month shares had fallen below their debut price, and have mostly fallen further since.\nMost tech companies see their shares fall after hitting the stock market, often after reporting quarterly results for the first time.\nBut many such companies, including Meta, Amazon and Google, have gone on to become the largest and most profitable corporations in the world.\nWith Anthropic, investors are not only looking at a notable tech company with a major valuation, and a potentially big future in business, but a company that is the first of its kind on the stock market.\n\"There's no obvious peer to compare it to,\" Neil Wilson, an investor strategist at Saxo UK, said.\nSo, as individual investors and even researchers and investors at large funds ask themselves if Anthropic is really worth $1.5 trillion, or even more, there will be few answers available.\n\"We'll have a stab at it,\" Wilson said. \"I don't think anyone really knows.\"\nA few things will likely impact the company's success on the stock market in the near-term.\nOne of those things is the prospect of new laws governing the use of AI tools. In the US, where Anthropic is based, Democrats will be in many more positions of power come 2027, and several politicians have already said they will be looking to ensure AI tools are safe and have some guardrails attached.\nOn Thursday, the same day Anthropic went public, a bipartisan group of lawmakers formed the House AI Safety and Innovation Caucus, which will work specifically on AI regulation and safety considerations.\nA significant driver of this kind of scrutiny is Anthropic itself. Company executives, including co-founder and CEO Dario Amodei, have been outspoken in their purported fears that future AI tools will become so capable they will outsmart humans, to the point where extinction is possible.\nAnthropic has always put itself forward in public as an AI company that takes the safety of its technology very seriously.\nDaniela Amodei, Anthropic's president and sister of Dario Amodei, boasted on Thursday that the company \"had an AI safety team before we launched our first product\".\n\"AI carries real risks,\" she added.\nDespite the company's claims that the technology it is building at a rapid pace could be dangerous, Anthropic has made one of the quickest trips from start-up to IPO in history.\nRelated topics\n  - Published5 hours ago",
+   "source": "BBC World",
+   "category": "World",
+   "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9b7d/live/94082910-e452-11f1-a094-5fdc692f3e33.jpg",
+   "time": "2026-11-19T21:38:42+00:00",
+   "buzz": 1,
+   "ts": 1795124322,
+   "hot": false
+  },
+  {
+   "id": "3efda0ba48d3",
+   "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+   "summary": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo\n- Published\nThe Cincinnati Zoo in Ohio says its beloved hippopotamus Fiona has died just days after swallowing a knitted hat that slipped into her enclosure.\n\"It is with extreme sadness that we share with you the devastating news that Fio",
+   "text": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo\n- Published\nThe Cincinnati Zoo in Ohio says its beloved hippopotamus Fiona has died just days after swallowing a knitted hat that slipped into her enclosure.\n\"It is with extreme sadness that we share with you the devastating news that Fiona did not make it after multiple attempts from our amazing vets and keeper team to help her through what ended up being a medical emergency,\" the zoo said on Thursday afternoon.\nFiona swallowed the hat about 10 days ago and was asymptomatic at first but then required emergency care.\nThe vet staff \"tried everything they could to help her\" but \"despite multiple attempts to move the hat out of her system, it was ultimately too much to overcome\", the zoo said.\n\"We are in shock at the moment,\" Cincinnati Zoo director Dave Jenike said in a statement. \"We did not expect this outcome. She fought until she couldn't anymore.\"\nMichelle Curley, a spokesperson for the zoo, had said that the hat got into Fiona's enclosure by accident, after a visitor tossed it in the air and it caught on a ceiling fan that flung it through a small opening.\n\"We probably couldn't make [it] happen again if we tried,\" Curley said.\nWhile she seemed fine at first, her appetite started to decrease a few days later, and the zoo staff tried to encourage Fiona to eat to help push the hat through her digestive system.\nAn ultrasound before her death showed the hat passing through Fiona's small intestine. A zookeeper said surgery was not an option for full-grown hippos and \"our best chance for success with Fiona would be if she could pass this on her own\".\n\"Our animal care team was heroic in their efforts to save her. They did everything possible, but her body couldn't fight anymore,\" Jenike said.\nFiona was born premature at the Cincinnati Zoo in 2017 and at first struggled to survive. At birth, she weighed 13 kg (29 lbs), which the zoo said was about half the previous lowest recorded birth weight for her species.\nHer story inspired an ice cream flavour as well as a character in Cincinnati's ballet.\nRelated topics\n  - Published1 hour ago",
+   "source": "BBC World",
+   "category": "World",
+   "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+   "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0deb/live/75026a20-e45d-11f1-a599-65f550c2a35a.jpg",
+   "time": "2026-11-19T21:26:10+00:00",
+   "buzz": 1,
+   "ts": 1795123570,
+   "hot": false
+  },
+  {
+   "id": "47cd5f1547e7",
+   "title": "US appeals court lets Trump end TPS deportation protections for Venezuelans",
+   "summary": "US appeals court lets Trump end TPS deportation protections for Venezuelans\nThe appeals court’s ruling prevents a lower-court decision from taking effect, which would block Trump from ending the TPS programme.\nA United States appeals court has allowed the administration of President Donald Trump to",
+   "text": "US appeals court lets Trump end TPS deportation protections for Venezuelans\nThe appeals court’s ruling prevents a lower-court decision from taking effect, which would block Trump from ending the TPS programme.\nA United States appeals court has allowed the administration of President Donald Trump to move forward for now with the removal of deportation protections for Venezuelans.\nThe ruling on Wednesday cancels out a previous order by a lower-court judge that required the government to restore the Temporary Protected Status (TPS) of Venezuelans, which shields recipients against deportation.\nThe effort to end the TPS protections has proceeded despite humanitarian concerns.\nSince taking office for a second term, Trump has sought to carry out what he calls the largest deportation effort in US history. Part of that agenda has been to roll back programmes like TPS.\nBut in September 2025, US District Judge Edward Chen blocked the expiration of TPS protections for Venezuelans, arguing that deporting those individuals would put them in harm’s way.\nHe also ruled that the Trump administration had overstepped its authority by seeking to shorten TPS extensions granted under the preceding president, Joe Biden. Such decisions, Chen added, needed to be taken with “careful study and analysis”.\nSome 600,000 Venezuelans in the US were protected under TPS programmes.\nThe Supreme Court paused Chen’s ruling in October 2025. But that pause expired this month, and Chen’s order was set to take effect on Friday.\nOn Wednesday, the Trump administration filed an emergency request to the Supreme Court to extend the pause before Thursday’s appeals court ruling.\nThe appeals court’s decision does not nix the ongoing legal challenges to Trump’s efforts to revoke TPS extensions. But it allows the administration to suspend deportation protections while the challenges make their way through court.\nThe Trump administration has sought to strip large numbers of immigrants of their legal protections in a bid to render them deportable. Other programmes, like humanitarian parole, have also come under the administration’s scrutiny.\nTPS allows foreign nationals already in the US to remain while conditions in their home countries are too dangerous or unstable to return to.\nHumanitarian parole, meanwhile, allows people outside the US to come in on a temporary basis, often to escape similarly perilous conditions.\nThe Trump administration has argued that TPS designations are meant to be temporary — and that previous presidencies extended such protections without cause.\nIt has also maintained that conditions have improved in places like Venezuela, where a US military action on January 3 resulted in the abduction of President Nicolas Maduro.\nHuman rights advocates, however, have noted that Maduro’s government remains largely intact. That leadership has been accused of abuses ranging from arbitrary imprisonment to the torture of political dissidents.\nThe US Department of State currently warns against travel to Venezuela, citing issues such as crime, kidnapping and poor health infrastructure.",
+   "source": "Al Jazeera",
+   "category": "World",
+   "url": "https://www.aljazeera.com/news/2026/11/19/us-appeals-court-lets-trump-end-tps-deportation-protections-for-venezuelans?traffic_source=rss",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2021/07/2018-01-08T180929Z_1992543077_RC1E7E122B70_RTRMADP_3_USA-IMMIGRATION-PROTECTION.jpg?resize=1920%2C1440",
+   "time": "2026-11-19T21:11:45+00:00",
+   "buzz": 1,
+   "ts": 1795122705,
+   "hot": false
+  },
+  {
+   "id": "ab08836df09a",
+   "title": "Ten killed in Pakistan as bus crashes into gas tanker",
+   "summary": "Ten killed in Pakistan as bus crashes into gas tanker\nNewsFeed\nTen killed in Pakistan as bus crashes into gas tanker\nTen people were killed and at least 27 more injured after a passenger bus collided with an LPG tanker on a coastal highway in Pakistan. Both vehicles caught fire, trapping passengers",
+   "text": "Ten killed in Pakistan as bus crashes into gas tanker\nNewsFeed\nTen killed in Pakistan as bus crashes into gas tanker\nTen people were killed and at least 27 more injured after a passenger bus collided with an LPG tanker on a coastal highway in Pakistan. Both vehicles caught fire, trapping passengers inside the bus as rescue teams rushed to the scene.\nPublished On 19 Nov 2026",
+   "source": "Al Jazeera",
+   "category": "World",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/ten-killed-in-pakistan-as-bus-crashes-into-gas-tanker?traffic_source=rss",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795122553.jpg?resize=1920%2C1080&quality=80",
+   "time": "2026-11-19T21:09:24+00:00",
+   "buzz": 1,
+   "ts": 1795122564,
+   "hot": false
+  },
+  {
+   "id": "4f79f6612746",
+   "title": "'We're seeing in real time the effects that AI is going to have on cybersecurity', expert says",
+   "summary": "One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\n        Video\n    \n'We're seeing in real time the effects that AI is going to have on cybersecurity', expert says\n        Video\n    \nTechnology",
+   "text": "One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\n        Video\n    \n'We're seeing in real time the effects that AI is going to have on cybersecurity', expert says\n        Video\n    \nTechnology\n                    \n        Video\n    \nTechnology\n                    \n        Video\n    \nTechnology",
+   "source": "France 24",
+   "category": "World",
+   "url": "https://www.france24.com/en/we-re-seeing-in-real-time-the-effects-that-ai-is-going-to-have-on-cybersecurity-expert-says",
+   "image": "https://s.france24.com/media/display/bed7beae-e45b-11f1-9cd8-ebb478925cf0/w:1280/p:16x9/EN-20261119-210356-211312-CS-01.jpg",
+   "time": "2026-11-19T21:06:12+00:00",
+   "buzz": 1,
+   "ts": 1795122372,
+   "hot": false
+  },
+  {
+   "id": "0937d642de7d",
+   "title": "Nacua handed three-match suspension by NFL for policy violation",
+   "summary": "Puka Nacua: Los Angeles Rams wide receiver handed three-match suspension by NFL for violating personal conduct policy\nPuka Nacua won't miss any games that he wouldn't already miss because of injury; Nacua is eligible to return both from IR and his suspension when the Rams (6-4) host the Dallas Cowbo",
+   "text": "Puka Nacua: Los Angeles Rams wide receiver handed three-match suspension by NFL for violating personal conduct policy\nPuka Nacua won't miss any games that he wouldn't already miss because of injury; Nacua is eligible to return both from IR and his suspension when the Rams (6-4) host the Dallas Cowboys on December 20; watch the NFL throughout the season live on Sky Sports\nThursday 19 November 2026 21:16, UK\nLos Angeles Rams receiver Puka Nacua has been suspended for three games for violating the NFL's personal conduct policy.\nThe suspension begins immediately and Nacua will be eligible for reinstatement on December 14, following the Rams' Week 14 game against the San Francisco 49ers.\nThe All-Pro receiver won't be paid during his suspension but, thanks to the timing of his suspension, won't miss any games because he is currently out due to knee and toe injuries.\n- Jay-Z picks himself to headline Super Bowl half-time show\n- Who is NFL MVP favourite? 'He is head and shoulders above'\n- Get latest Sky Sports deals or stream with no contract\nNacua went on injured reserve last week and he is eligible to return from both IR and his suspension when the Rams (6-4) host the Dallas Cowboys on December 20.\nThe Rams and Nacua have been awaiting his probable suspension for nearly a year. The suspension of Nacua stems from an incident on New Year's Eve in 2025, where he allegedly made an antisemitic remark and bit a woman.\nThe accuser filed a civil lawsuit on March 25 against Nacua for assault and battery, while Nacua's attorney denied his client made any such statements and described the biting as \"horseplay.\"\nNacua entered a holistic care facility earlier that month, before he was sued, the concluded his time in the rehab facility in time to be part of Los Angeles' off-season program in mid-April.\nHe has appeared in seven games this season, despite battling multiple injuries. He has totalled 70 receptions for 715 yards this season, with four touchdowns.\nNacua also missed two games with a core muscle injury in September before hurting his knee on the final offensive play of the Rams' win at Washington on November 8.\nWatch the 2026 NFL season live on Sky Sports, including every minute of the playoffs and Super Bowl LXI on Sunday February 14, 2027. Get latest Sky Sports deals or stream with no contract.",
+   "source": "Sky Sports",
+   "category": "Football",
+   "url": "https://www.skysports.com/nfl/news/12040/13614165/puka-nacua-los-angeles-rams-wide-receiver-handed-three-match-suspension-by-nfl-for-violating-personal-conduct-policy",
+   "image": "https://e0.365dm.com/26/08/1600x900/skysports-puka-nacua-los-angeles_7321103.jpg?20260814001929",
+   "time": "2026-11-19T21:00:00+00:00",
+   "buzz": 1,
+   "ts": 1795122000,
+   "hot": false
+  },
   {
    "id": "e2e08ed6393d",
    "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
@@ -97,6 +209,20 @@
    "time": "2026-11-19T20:43:51+00:00",
    "buzz": 1,
    "ts": 1795121031,
+   "hot": false
+  },
+  {
+   "id": "dbb52d80e202",
+   "title": "Kushner says Trump 'open' to extend NATO mutual defense-type clause to Ukraine",
+   "summary": "One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\n        Video\n    \nKushner says Trump 'open' to extend NATO mutual defense-type clause to Ukraine\n        Video\n    \nEurope",
+   "text": "One of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\n        Video\n    \nKushner says Trump 'open' to extend NATO mutual defense-type clause to Ukraine\n        Video\n    \nEurope\n                    \n        Video\n    \nAsia / Pacific\n                    \n        Video\n    \nEurope",
+   "source": "France 24",
+   "category": "World",
+   "url": "https://www.france24.com/en/kushner-says-trump-open-to-extend-nato-mutual-defense-type-clause-to-ukraine",
+   "image": "https://s.france24.com/media/display/25b84e6c-e444-11f1-a13d-ebb478925cf0/w:1280/p:16x9/2026-11-19T175030Z-1149809636-RC24ROAX76LX-RTRMADP-3-UKRAINE-CRISIS-GERMANY-BRITAIN.jpg",
+   "time": "2026-11-19T20:41:06+00:00",
+   "buzz": 1,
+   "ts": 1795120866,
    "hot": false
   },
   {
@@ -562,6 +688,20 @@
    "hot": false
   },
   {
+   "id": "d4d5c13df5f2",
+   "title": "Anthropic shares rise over 30% in market debut, valuing Claude maker at about $2T",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWd4RUFzWVJ1bmRQbDZIYjhnUkJZdmU0ZV9tOTdrdFB1WEJWT0pzY1JyOHIxU1Z3a3VnVXF3ZEwyZWl3LTJxbmxtd1Q3U3lLS0IxbzZqTTA1dlh3VGdFOXRWYlRPTFJULVBQcVRfV2tfRlhlazJzdk9uNVhROU1sRHhGcDZ0NDRjdzR6bkdjcWhmeGEzeXpvbzd5Z2UweTVhSG5OVktBUVBrTms0WGVjVF9OVHZjTUdTdz",
+   "text": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWd4RUFzWVJ1bmRQbDZIYjhnUkJZdmU0ZV9tOTdrdFB1WEJWT0pzY1JyOHIxU1Z3a3VnVXF3ZEwyZWl3LTJxbmxtd1Q3U3lLS0IxbzZqTTA1dlh3VGdFOXRWYlRPTFJULVBQcVRfV2tfRlhlazJzdk9uNVhROU1sRHhGcDZ0NDRjdzR6bkdjcWhmeGEzeXpvbzd5Z2UweTVhSG5OVktBUVBrTms0WGVjVF9OVHZjTUdTdzM3cXI2SdIBxAFBVV95cUxONVctSjdranR2aGM5RkFvYVV2ancteEZTbFk1Y0liQUstd0toVkYxOXFPRDNtYUlwRWFibzNiNGl6aU1IUUhUdlVWaFlfWTJYajlhX0tEY1k2SWNNNjFxeU1wb1NCamRoaFhzbi1CMGp0M2ZFZ3pRLVI1TFFqLWFhS3AxY1F0ZHB4NXZ6ekVtY1NzdmEtZm5KUUxSdGstdzdocUs3VXlWVmxKRWVmbGlmUnk5VUQycnh4dy1NbXlKMHZkNUQ5?oc=5\" target=\"_blank\">Anthropic shares rise over 30% in market debut, valuing Claude maker at about $2T</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">A News</font>",
+   "source": "A News",
+   "category": "AI",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOWd4RUFzWVJ1bmRQbDZIYjhnUkJZdmU0ZV9tOTdrdFB1WEJWT0pzY1JyOHIxU1Z3a3VnVXF3ZEwyZWl3LTJxbmxtd1Q3U3lLS0IxbzZqTTA1dlh3VGdFOXRWYlRPTFJULVBQcVRfV2tfRlhlazJzdk9uNVhROU1sRHhGcDZ0NDRjdzR6bkdjcWhmeGEzeXpvbzd5Z2UweTVhSG5OVktBUVBrTms0WGVjVF9OVHZjTUdTdzM3cXI2SdIBxAFBVV95cUxONVctSjdranR2aGM5RkFvYVV2ancteEZTbFk1Y0liQUstd0toVkYxOXFPRDNtYUlwRWFibzNiNGl6aU1IUUhUdlVWaFlfWTJYajlhX0tEY1k2SWNNNjFxeU1wb1NCamRoaFhzbi1CMGp0M2ZFZ3pRLVI1TFFqLWFhS3AxY1F0ZHB4NXZ6ekVtY1NzdmEtZm5KUUxSdGstdzdocUs3VXlWVmxKRWVmbGlmUnk5VUQycnh4dy1NbXlKMHZkNUQ5?oc=5",
+   "image": null,
+   "time": "2026-11-19T19:05:00+00:00",
+   "buzz": 3,
+   "ts": 1795115100,
+   "hot": true
+  },
+  {
    "id": "26edecc4da77",
    "title": "WCL: Arsenal vs Lyon LIVE!",
    "summary": "Arsenal Women vs Olympiques Lyon Women; Women's Champions League\n                        Full Time\n                        After Extra Time\n                        This is a live match.\n                        Extra Time\n                        Half Time\n                      \nArsenal Women vs Olymp",
@@ -630,20 +770,6 @@
    "buzz": 1,
    "ts": 1795114399,
    "hot": false
-  },
-  {
-   "id": "466ca76fbd21",
-   "title": "Anthropic shares rise over 30% in market debut, valuing Claude maker at about $2T",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOTE4OHR1dXJOYmZHMXdVRVFWN1lIV3Q5YXJOM0ExMEF5Yktfa2kxR1phZXRpU3VFOUdFcUxWQUVkU3hzdkZnTC1sSEs4MmgxTTBlXzBVQUJzSGNMRDNvQWVNT2tHMEdNS2NxTWpDa25HNGFRbzJMSmxldGVkWUN6VjdoV01XZDBjejVoQnpTVy1GQTdseE5QNFkzNnpicVJlZURlN0xXTWpSa3luUllmMDR6ejMxaFA4Rk",
-   "text": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOTE4OHR1dXJOYmZHMXdVRVFWN1lIV3Q5YXJOM0ExMEF5Yktfa2kxR1phZXRpU3VFOUdFcUxWQUVkU3hzdkZnTC1sSEs4MmgxTTBlXzBVQUJzSGNMRDNvQWVNT2tHMEdNS2NxTWpDa25HNGFRbzJMSmxldGVkWUN6VjdoV01XZDBjejVoQnpTVy1GQTdseE5QNFkzNnpicVJlZURlN0xXTWpSa3luUllmMDR6ejMxaFA4RkxF?oc=5\" target=\"_blank\">Anthropic shares rise over 30% in market debut, valuing Claude maker at about $2T</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
-   "source": "Anadolu Ajansı",
-   "category": "AI",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOTE4OHR1dXJOYmZHMXdVRVFWN1lIV3Q5YXJOM0ExMEF5Yktfa2kxR1phZXRpU3VFOUdFcUxWQUVkU3hzdkZnTC1sSEs4MmgxTTBlXzBVQUJzSGNMRDNvQWVNT2tHMEdNS2NxTWpDa25HNGFRbzJMSmxldGVkWUN6VjdoV01XZDBjejVoQnpTVy1GQTdseE5QNFkzNnpicVJlZURlN0xXTWpSa3luUllmMDR6ejMxaFA4RkxF?oc=5",
-   "image": null,
-   "time": "2026-11-19T18:52:28+00:00",
-   "buzz": 3,
-   "ts": 1795114348,
-   "hot": true
   },
   {
    "id": "f08325046c1c",
@@ -1108,6 +1234,20 @@
    "hot": false
   },
   {
+   "id": "eddee06eab3b",
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "summary": "A virus has stopped pancreatic cancer in its tracks in three people in a clinical trial in the US. Further evaluation is needed in larger trials, but the early results are encouraging, especially since only small doses of the virus were administered for initial safety testing.\n“We only injected one-",
+   "text": "A virus has stopped pancreatic cancer in its tracks in three people in a clinical trial in the US. Further evaluation is needed in larger trials, but the early results are encouraging, especially since only small doses of the virus were administered for initial safety testing.\n“We only injected one-tenth of the dose we are eventually aiming at, so the efficacy is better than I expected, especially as this is pancreatic cancer,” says Masato Yamamoto at the University of Minnesota, who led the development of the viral treatment.\nPancreatic cancer is notorious for being the deadliest type of the condition. One reason is that symptoms tend to appear late, when the cancer has already spread and cannot be surgically removed. Once diagnosed, people usually live only around three to six months.\nAdvertisement\nAnother reason is that pancreatic tumours have tough, fibrous exteriors that block chemotherapy drugs from getting in. “They’re hard as hockey pucks,” says Yamamoto. Immunotherapies that boost immune activity against cancer are also ineffective, because pancreatic tumours can hide from the immune system.\nThe first patient in the trial, who had a pancreatic tumour 7 centimetres across, was administered the treatment a year ago, and the other two have been since then. At the time, their tumours hadn’t spread beyond the pancreas. Since being treated, their tumours haven’t grown any further. “They are all still alive and have clinically stable disease,” says Yamamoto, who presented the results at the annual meeting of the American Society of Gene and Cell Therapy in Boston, Massachusetts, earlier this month. Another 15 patients will now be given higher doses to find the optimum level.\n“I think this is an interesting early signal, but as a pancreatic surgeon, I think it’s important to keep perspective,” says Kai Brown at Royal North Shore Hospital in Sydney. “The history of oncology is littered with promising early signals that vanished by the time rigorous phase III [late-stage] testing was done, so I think these preliminary conference results should probably just be seen as hypothesis-generating at this stage.” He also notes that the trial so far hasn’t included a control group, so it is hard to know whether the cancer-killing virus works better than other treatments or none at all.\nThe virus is an adenovirus that has been genetically engineered to replicate only inside tumours and not healthy tissue. Its replication is specifically activated by an enzyme called cyclooxygenase-2 (COX-2), which is present at much higher levels in cancer cells than in normal ones. After cancer cells become infected with the virus, they burst open and die, releasing more virus that can infect neighbouring cancer cells.\nIn the trial, the virus was injected directly into the patients’ tumours through a thin tube that was guided down a patient’s throat to their pancreas. The tube had an ultrasound probe on the end to allow visualisation of the tumours.\nThe reason the tumours have stopped growing but haven’t become any smaller may be due to the low treatment dose, says Yamamoto. He thinks they may start to shrink as the virus has more time to replicate.\nAs the tumour cells start to break apart and leak their contents, the immune system may also be able to recognise and fight the cancer, says Yamamoto. “The patient’s immune system can realise something is wrong, and then go and attack the tumour,” he says. The hope is that the immune system will also recognise and destroy any tumour cells that have spread to other parts of the body. If so, the treatment could be effective against metastatic pancreatic cancer.\nTo try to supercharge this natural immune response, Yamamoto and his colleagues are now planning to combine the viral treatment with immunotherapies like checkpoint inhibitors – drugs that block proteins that stop the immune system from attacking the cancer cells – in future clinical trials.\nAdenoviruses, which cause cold- and flu-like symptoms in their unmodified forms, have a long history of being investigated as potential cancer treatments. In the 1950s, for instance, women with cervical cancer were injected with an unmodified adenovirus in a clinical trial, with partial success. However, it became clear that adenoviruses must be engineered to make them selectively target cancer cells, for safety and efficacy reasons.\nThe only cancer-killing virus that has been approved by the Food and Drug Administration in the US is T-VEC, a genetically modified herpes simplex virus that is injected directly into melanoma tumours, causing the cells to rupture and die.",
+   "source": "Hacker News",
+   "category": "AI",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "image": "https://www.newscientist.com/wp-content/uploads/2026/05/28111438/SEI_299218241.jpg",
+   "time": "2026-11-19T17:25:33+00:00",
+   "buzz": 1,
+   "ts": 1795109133,
+   "hot": false
+  },
+  {
    "id": "9e457eae6be0",
    "title": "Brighton latest: Hurzeler not leaving for a long time, says Bloom",
    "summary": "This content is provided by , which may be using cookies and other technologies.\nTo show you this content, we need your permission to use cookies.\nYou can use the buttons below to amend your preferences to enable cookies or to allow those cookies just once.\nYou can change your settings at any time v",
@@ -1133,6 +1273,20 @@
    "time": "2026-11-19T17:20:00+00:00",
    "buzz": 1,
    "ts": 1795108800,
+   "hot": false
+  },
+  {
+   "id": "fc9ee5931508",
+   "title": "Four suspects arrested over machete attack on Natembeya's aide",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVpZdnROQUxPVTd5RkhSQXBySDJzY29KQVpXMUpvaks3ZXpWUHdQOVNKWHpfMFlCa0ZGaWV3dE5uMm5DeGR1U2VIVEt5bEk4UkN0N2JnRDBSenlLd2dmSGlueVp0Nk84T3JMUk5tVXpsZ3ZKZmZuSzJiUGdLSkN5bUdGekRZRDg5djJteE8xOXE?oc=5\" target=\"_blank\">Four suspects arrested over mach",
+   "text": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVpZdnROQUxPVTd5RkhSQXBySDJzY29KQVpXMUpvaks3ZXpWUHdQOVNKWHpfMFlCa0ZGaWV3dE5uMm5DeGR1U2VIVEt5bEk4UkN0N2JnRDBSenlLd2dmSGlueVp0Nk84T3JMUk5tVXpsZ3ZKZmZuSzJiUGdLSkN5bUdGekRZRDg5djJteE8xOXE?oc=5\" target=\"_blank\">Four suspects arrested over machete attack on Natembeya's aide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Star, Kenya</font>",
+   "source": "The Star, Kenya",
+   "category": "Kenya",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVVpZdnROQUxPVTd5RkhSQXBySDJzY29KQVpXMUpvaks3ZXpWUHdQOVNKWHpfMFlCa0ZGaWV3dE5uMm5DeGR1U2VIVEt5bEk4UkN0N2JnRDBSenlLd2dmSGlueVp0Nk84T3JMUk5tVXpsZ3ZKZmZuSzJiUGdLSkN5bUdGekRZRDg5djJteE8xOXE?oc=5",
+   "image": null,
+   "time": "2026-11-19T17:17:42+00:00",
+   "buzz": 1,
+   "ts": 1795108662,
    "hot": false
   },
   {
@@ -1495,7 +1649,7 @@
    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPMzQ0Z05PWlMybzU4blh4blQzUnEwVFJIbUNGSk1sYTNVcF9CaUxPNDY5cThxZ1ZGMHRDNHFMeWdrdFJqbDFJbFdBR0dPRC1pcC01UDlZUmNlVjdVd1IxeGpjXzlCMGFqbnE3YXJpd2pqSnBaNDB6RGFkM2JlUHE5TnYwUk8xVUF4NjhFZ3RQWUp2T3dzZmhnUng2QTk5OGFYTUVZcTRGV05mSE1hZHhrbDlJdTQ5NW5DMHI1X1hSaTNObkFaak9LWmNHZGZnd0JnM2hYQTdPbnBRa1Y5Ykdta0YxQ1Y1dlFHR1EwYzFVNlNpOE5hNmYwOHBwZk5PdFFkTDZUeA?oc=5",
    "image": null,
    "time": "2026-11-19T16:20:19+00:00",
-   "buzz": 2,
+   "buzz": 1,
    "ts": 1795105219,
    "hot": false
   },
@@ -1889,6 +2043,20 @@
    "time": "2026-11-19T15:40:00+00:00",
    "buzz": 1,
    "ts": 1795102800,
+   "hot": false
+  },
+  {
+   "id": "a1b4c14185fc",
+   "title": "Mbadi and AG Oduor found in contempt, to appear in court for sentencing",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGpXODVwXzVXMlRYQ1Y5cDRQRTA2dEZXZGNWTE5oVnU4SUFqQ1N3VmpRTVZWSnhST29hVjRTUEFuU3Vnb3VBWG5yRU5JamlIVk5jR2tsNEdZNUdnWDEzU19NY1l0YUxTLS1qdlY2LWR2Ym94WkZvNXNBS21GY0sxaHFPeEg2QUNqTlRzVVhkUnBRQ3NRUWEzZGJxb2JINC1MeHhoY3hEMmwtMnRPNEZFTQ?oc=5\" targe",
+   "text": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGpXODVwXzVXMlRYQ1Y5cDRQRTA2dEZXZGNWTE5oVnU4SUFqQ1N3VmpRTVZWSnhST29hVjRTUEFuU3Vnb3VBWG5yRU5JamlIVk5jR2tsNEdZNUdnWDEzU19NY1l0YUxTLS1qdlY2LWR2Ym94WkZvNXNBS21GY0sxaHFPeEg2QUNqTlRzVVhkUnBRQ3NRUWEzZGJxb2JINC1MeHhoY3hEMmwtMnRPNEZFTQ?oc=5\" target=\"_blank\">Mbadi and AG Oduor found in contempt, to appear in court for sentencing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Nation</font>",
+   "source": "Daily Nation",
+   "category": "Kenya",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZGpXODVwXzVXMlRYQ1Y5cDRQRTA2dEZXZGNWTE5oVnU4SUFqQ1N3VmpRTVZWSnhST29hVjRTUEFuU3Vnb3VBWG5yRU5JamlIVk5jR2tsNEdZNUdnWDEzU19NY1l0YUxTLS1qdlY2LWR2Ym94WkZvNXNBS21GY0sxaHFPeEg2QUNqTlRzVVhkUnBRQ3NRUWEzZGJxb2JINC1MeHhoY3hEMmwtMnRPNEZFTQ?oc=5",
+   "image": null,
+   "time": "2026-11-19T15:35:49+00:00",
+   "buzz": 1,
+   "ts": 1795102549,
    "hot": false
   },
   {
@@ -2354,20 +2522,6 @@
    "hot": false
   },
   {
-   "id": "cdb66e8c46a9",
-   "title": "Beaujolais Nouveau: A French tradition uncorked",
-   "summary": "Beaujolais Nouveau: A French tradition uncorked\nTo display this content from YouTube, you must enable advertisement tracking and audience measurement.\nOne of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\nIs",
-   "text": "Beaujolais Nouveau: A French tradition uncorked\nTo display this content from YouTube, you must enable advertisement tracking and audience measurement.\nOne of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\nIssued on:\nEvery year on the third Thursday of November, France raises a glass to one of its most joyful traditions: Le Beaujolais Nouveau! That means that this Thursday, millions of bottles of the 2026 young red wine will be uncorked around the world, from Lyon to New York. Olivier Badoureaux, wine expert and director of the French trade organisation Inter Beaujolais, tells us what we should expect from this year's vintage.\nA programme produced by Amanda Alexander, Georgina Robertson and Marina Pajovic\nRelated keywords",
-   "source": "France 24",
-   "category": "World",
-   "url": "https://www.france24.com/en/tv-shows/entre-nous/20261119-beaujolais-nouveau-a-french-tradition-uncorked",
-   "image": "https://s.france24.com/media/display/63378348-e426-11f1-a003-ebb478925cf0/w:1280/p:16x9/capture-21efc65b.jpg",
-   "time": "2026-11-19T14:44:33+00:00",
-   "buzz": 1,
-   "ts": 1795099473,
-   "hot": false
-  },
-  {
    "id": "92bc28266829",
    "title": "Will Pochettino fix Manchester United? Will Unwin is answering your questions – live",
    "summary": "Will is here!\nWill Unwin is online now answering all your Manchester United questions. It’s not too late to get involved, ask yours here.\nAs Mauricio Pochettino prepares for his first game in charge at Anfield, the Guardian’s Will Unwin is taking your questions on Manchester United’s new head coach,",
@@ -2379,20 +2533,6 @@
    "time": "2026-11-19T14:43:01+00:00",
    "buzz": 1,
    "ts": 1795099381,
-   "hot": false
-  },
-  {
-   "id": "a6bb67787e56",
-   "title": "A geography of hearts: Turkiye and Lebanon, building the Levant together",
-   "summary": "A geography of hearts: Turkiye and Lebanon, building the Levant together\nSome journeys feel less like a first visit and more like a homecoming. That is how I felt during my three days in Lebanon — my first ever visit to a country I had long known through its history, its poets and its people, but ha",
-   "text": "A geography of hearts: Turkiye and Lebanon, building the Levant together\nSome journeys feel less like a first visit and more like a homecoming. That is how I felt during my three days in Lebanon — my first ever visit to a country I had long known through its history, its poets and its people, but had never walked through myself.\nI came at the kind invitation of Dr Tarek Mitri, Deputy Prime Minister of Lebanon, who proved the most gracious of hosts. I came in a spirit of friendship and partnership, and I leave with gratitude. In every conversation — in Beirut, in Tripoli, in Akkar and beyond — I heard the same quiet determination: Lebanon wants to stand on its own feet, and it wants partners, not patrons.\nI also leave with a full heart and, I must admit, a fuller stomach. From a za’atar breakfast on the road to Akkar to the sweets of Hallab in Tripoli and shawarma at Barbar in Beirut, Lebanese hospitality is everything people promise. Around shared tables, over strong coffee and long conversations, I was reminded that the bonds between our peoples were never only about diplomacy. Distance on a map tells you very little. What matters is the geography of hearts — and by that measure, Beirut and Istanbul have always been neighbours.\nThat warmth carries a responsibility, for friendship is proved not in words but in what we do together. Five convictions stayed with me throughout the visit.\n1. Unity is Lebanon’s greatest strength\nLebanon’s diversity of faiths, communities and traditions is not a weakness to be managed; it is a richness to be protected. I was honoured to meet leaders from across the country’s political and spiritual life: President Joseph Aoun, Prime Minister Nawaf Salam and the veteran Speaker of Parliament, Nabih Berri; the Grand Mufti of the Lebanese Republic, Sheikh Abdul Latif Derian, and the Greek Orthodox Metropolitan of Beirut, His Eminence Elias Audi; Mrs Bahia Hariri, Vice President of the Future Movement; and Mr Walid Jumblatt, former leader of the Progressive Socialist Party. Different as their paths have been, each spoke of the same hope: a state that serves all its citizens, institutions that work and a future their children will not have to leave the country to find. National unity is the foundation on which everything else — security, recovery, prosperity — must be built. Turkiye’s interest is in a strong, whole and united Lebanon.\n2. Lebanon’s decisions belong to the Lebanese\nFor too long, Lebanon has paid the price of being treated as an arena for the rivalries of others. That has to end. Nowhere is this felt more deeply than in the south, whose towns, farmland and families have borne the heaviest cost of this year’s war. Lebanon’s sovereignty and territorial integrity are not negotiable — and they must extend to every inch of its land. Occupation in the south must end, and the Lebanese state must be able to protect all of its citizens, from Beirut to the southern border. The choices about Lebanon’s future must be made in Beirut, by Lebanese, for Lebanese. Foreign states — near or far — should respect that. Real friends offer support when it is asked for and step back when it is not. That is the principle Turkiye seeks to live by.\n3. A Levant-driven future, built on trade\nThe problems of our region will not be solved one capital at a time, and they will not be solved from outside. The Levant must think and act as a region, as it once did. The Greek historian Diodorus Siculus records that the Phoenician cities held their common council in Tripoli, gathering there to deliberate on matters of the greatest importance. More than 2,000 years later, our region urgently needs to recover that tradition of meeting, talking and deciding together, and Tripoli, which welcomed me so warmly, is a fitting place to begin. Our economies are natural complements: Lebanon’s entrepreneurial talent, its banking and services heritage and its ports; Turkiye’s manufacturing base, logistics networks and access to Europe and Central Asia. As Syria recovers, a corridor of trade, transport and energy linking our countries can become the backbone of a new regional economy. Let goods, investment and young people’s ideas move freely across our region, and stability will follow prosperity.\n4. A record, not a promise\nTurkiye does not come to Lebanon with new slogans; we come with a track record. We have stood behind UNIFIL’s peacekeeping mission in the south. Through TİKA and the Turkish Red Crescent, we have delivered humanitarian aid in Lebanon’s hardest hours. Now the task is to rebuild the south — its homes and schools, its hospitals and roads and its olive groves — so that every displaced family can return home with dignity. Turkiye stands ready to play its full part in that effort, and to help strengthen the Lebanese institutions that must lead it. We have consistently defended Lebanon’s sovereignty in every international forum, and we will continue to do so. Through the foundations and educational institutions I work with, we have seen firsthand how much Lebanese students and young people have to offer — and how much our two societies gain when they learn side by side.\n5. Interdependence is not dependence\nIn a fragile world, no country prospers alone. Cooperation between Turkiye and Lebanon is not charity flowing in one direction; it is interdependence that strengthens both. When Lebanon is stable, Turkiye and the whole region are safer. When Lebanese businesses grow, Turkish businesses gain partners. When our universities, civil society and young people connect, both nations gain. The goal is a partnership of equals — one where each side brings its strengths and neither loses its independence.\nThe road ahead\nI leave Lebanon convinced that the moment for deeper partnership is now. Lebanon has endured more than its share of war, economic hardship and loss — especially this year, and the south most of all. Yet what I saw was not a country defeated but a people ready to rebuild. Turkiye will",
-   "source": "Al Jazeera",
-   "category": "World",
-   "url": "https://www.aljazeera.com/opinions/2026/11/19/a-geography-of-hearts-turkiye-and-lebanon-building-the-levant-together?traffic_source=rss",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6afefaa21e3b3-1795095202.jpg?resize=1920%2C1440",
-   "time": "2026-11-19T14:41:38+00:00",
-   "buzz": 1,
-   "ts": 1795099298,
    "hot": false
   },
   {
@@ -2424,20 +2564,6 @@
    "hot": false
   },
   {
-   "id": "6714e4bf3198",
-   "title": "Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty",
-   "summary": "Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty\nSomalia says the UAE is interfering in its internal affairs with actions that amount to an ‘open invasion’.\nSomalia has ordered the United Arab Emirates (UAE) ambassador to leave the country within 72 hours and withdrew its en",
-   "text": "Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty\nSomalia says the UAE is interfering in its internal affairs with actions that amount to an ‘open invasion’.\nSomalia has ordered the United Arab Emirates (UAE) ambassador to leave the country within 72 hours and withdrew its envoy from Abu Dhabi.\nAnnouncing the measures on Thursday, Somali officials accused the UAE of violations of Somalia’s sovereignty that amounted to an “open invasion”.\n“Measures will be taken against anyone who cooperates with UAE in the invasion against Somalia,” Information Minister Abdifatah Kasim Mohamud said in a broadcast on the state-run news agency.\n“All Somalis are urged to defend their country and unite against the open invasion of the UAE against the sovereignty, security, land and unity of Somalis,” he said.\nMohamud did not provide additional information on what provoked the expulsion.\nThere was no immediate response from the UAE foreign ministry.\nOn Tuesday, Somalia’s President Hassan Sheikh Mohamud accused the UAE of giving economic and political support to regional Somali governments to oppose the federal government.\nAccording to the Somalia National News Agency, Mohamud said Abu Dhabi signed agreements related to the ports of Berbera, Bosaso and Kismayo with regional administrations and without the Federal Government.\nHe also said that the UAE helped to establish military bases and forces outside Somalia’s national command while the army is fighting the al-Shabab armed group and had given political and financial support that fuelled disputes inside the country.\nThe UAE, which has helped fund and train Somalia’s military in the past and has backed ports and other commercial ventures there, has long denied meddling in the country’s affairs.\nRising tensions\nExpelling the UAE ambassador is the strongest measure Mogadishu has taken against Abu Dhabi since it annulled every agreement with the gulf state earlier this year.\nIn January, Somalia cancelled all agreements with the UAE, including port deals and defence and security cooperation, citing “harmful actions” that undermine the country’s unity and sovereignty.\nThe UAE has long leveraged its wealth to expand its influence across the Horn of Africa, using a mix of economic, military and diplomatic clout to assert regional power.\nThe UAE trained hundreds of Somali troops from 2014 to 2018, and still pays salaries and provides logistics for around 3,400 Somali military police and special forces troops in and around the capital, according to senior Somali sources.",
-   "source": "Al Jazeera",
-   "category": "World",
-   "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty?traffic_source=rss",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6afefa2a0e3db-1795095082.jpg?resize=1920%2C1440",
-   "time": "2026-11-19T14:34:22+00:00",
-   "buzz": 1,
-   "ts": 1795098862,
-   "hot": false
-  },
-  {
    "id": "fd8e99224b8f",
    "title": "Ruto mocks opposition over IEBC partiality claims",
    "summary": "NAIROBI, Kenya Nov 19 – President William Ruto has dismissed the opposition’s concerns over the Independent Electoral and Boundaries Commission (IEBC), saying the electoral body does not determine election outcomes.\nSpeaking during the first day of his Western Kenya tour, Ruto maintained that the po",
@@ -2452,20 +2578,6 @@
    "hot": false
   },
   {
-   "id": "3319961f4c03",
-   "title": "France: Retirees march against 2027 budget cuts",
-   "summary": "More than a thousand people marched in Paris on Thursday, called by a union alliance joined by student and high-school groups, to protest social and tax measures targeting retirees in the 2027 budgets. The government wants retirees to contribute about €5.4 billion, by freezing the indexation of pens",
-   "text": "More than a thousand people marched in Paris on Thursday, called by a union alliance joined by student and high-school groups, to protest social and tax measures targeting retirees in the 2027 budgets. The government wants retirees to contribute about €5.4 billion, by freezing the indexation of pensions above €1,260 and reforming their 10% income tax allowance. Union leaders say the money should not come from retirees’ pockets, as FRANCE 24's Luke Shrago explains.",
-   "source": "France 24",
-   "category": "World",
-   "url": "https://www.france24.com/en/france-retirees-march-against-2027-budget-cuts",
-   "image": null,
-   "time": "2026-11-19T14:32:57+00:00",
-   "buzz": 1,
-   "ts": 1795098777,
-   "hot": false
-  },
-  {
    "id": "f0e98e5f1333",
    "title": "OpenAI's rumored ChatGPT phone is coming from Apple's favorite supplier",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxObGFhOFJTSnN1X1NrdmRQTlprd1Zwa2ZySU9Vb21zdVVBc3RZU1NVd1FybGdOTmNKNHBXdUJNTXB0VWtOaTlqbTUzNzl2cnJxVkZPSFMtNHZmbWc2QjNmQzZ2V2FjS1RNT3M2UXRET215U1c4Xy1EYzg4WFQ2TDhuVzQ3SzhnWkFZVm96RW5TaEg1dw?oc=5\" target=\"_blank\">OpenAI's rumored ChatGPT phon",
@@ -2477,34 +2589,6 @@
    "time": "2026-11-19T14:32:13+00:00",
    "buzz": 1,
    "ts": 1795098733,
-   "hot": false
-  },
-  {
-   "id": "9f84fa9bd906",
-   "title": "What the ICJ ruling means for the Rohingya",
-   "summary": "What the ICJ genocide ruling means for the Rohingya people\nThis is the first time the court has ruled that a state committed genocide.\nThe International Court of Justice (ICJ) has ruled that Myanmar has committed genocide against the Rohingya minority ethnic group.\nAfter seven years of deliberations",
-   "text": "What the ICJ genocide ruling means for the Rohingya people\nThis is the first time the court has ruled that a state committed genocide.\nThe International Court of Justice (ICJ) has ruled that Myanmar has committed genocide against the Rohingya minority ethnic group.\nAfter seven years of deliberations, ICJ President Yuji Iwasawa delivered the long-awaited ruling on Thursday in a verdict which took three hours to read out.\nNine of the 15-judge panel found that Myanmar has committed genocide, the court said. Justices also voted in favour of a landmark reparations order against the country which it says has persecuted the mostly Muslim group for decades.\nIt is the first time in the history of the World Court, which was established in 1945, that it has ruled that a state has committed genocide. The decision is final and cannot be appealed.\nThe Gambia brought the landmark case against Myanmar in 2019.\nAfter many years of persecution, Myanmar’s military launched an offensive in 2017 which forced about 750,000 Rohingya from their homes and lands, and pushed them into squalid refugee camps, largely in neighbouring Bangladesh.\nAbout 10,000 Rohingya were killed in the early stages of the military operation. Thousands of others died in shipwrecks as they fled on perilous boat trips across the Bay of Bengal. The Rohingya reported cases of mass killings, torture and rape at the hands of the Myanmar military and allied militias.\n“This is a huge day for the Rohingya people and all people of Myanmar,” said Matthew Smith, a campaigner with the advocacy group Fortify Rights, who nervously stood in The Hague’s Peace Palace along with Rohingya survivors and the Gambian delegation, as the ruling was read out.\n“People have waited for such a long time for this moment,” he said.\nThe ruling “will provide much-needed momentum to efforts to hold the perpetrators and architects of the genocide individually criminally accountable”, he added.\nHere’s what we know:\nWhat has the court ruled?\nThe lengthy ruling, delivered by ICJ judge Yuji Iwasawa of Japan, said that Myanmar’s security forces “killed thousands of Rohingya” in Rakhine State, committed widespread sexual violence against them as well as acts of “extreme violence against children”.\nVillages were “systematically destroyed”, replaced with permanent structures and then re-settled by non-Rohingya, the ruling said. The military also “intentionally” caused “serious bodily and mental harm” to the group’s members, and high-ranking officials disseminated anti-Rohingya hate speeches that portrayed them as “subhuman and a violent threat”.\nThose who fled their homes have had little or no opportunity to return because of the destruction of their homes, the court found, and acts against children in particular established the military’s intent to “prevent birth” in the group.\nFurthermore, the Myanmar military knew that there was a risk of genocide when armed civilians and allied militias participated in the military campaign against the Rohingya. “Myanmar thus violated its obligation to prevent genocide,” Iwasawa said.\nThe ICJ ruled that Myanmar must cease all acts of violence and investigate those culpable. Myanmar must also take immediate and effective steps to investigate all persons suspected of culpability, prosecute and punish the guilty, and provide guarantees that this will never happen again.\nImportantly, the court ruled that Myanmar must institute restitution and reparations in the case – something campaigners have long pushed for.\nRestitution measures, the court said, should see Myanmar: allow and facilitate the safe and voluntary return of Rohingya; return or replace all collective property damaged; facilitate the search for the disappeared and ensure proper burials; provide for the physical and psychological rehabilitation of those mentally injured and ensure their protection from persecution.\nThe court said it could not determine compensation but ordered Myanmar to submit a report within two years outlining a plan.\n“This judgement is a landmark victory for the Rohingya people and for countless individuals in Myanmar who have endured violence at the hands of the military. It represents an important step toward accountability and honours the courage and perseverance of the victims and survivors who have spent years seeking justice,” Arsalan Suleman, partner at legal firm Foley Hoag and lead counsel for The Gambia, said after the verdict was delivered.\nFor the Rohingya people, this is the day they have long hoped for.\n“The Rohingya hope to receive justice and enjoy safety both inside and outside Myanmar,” Kyaw Min Sabber, founder of Rohingya Human Rights Initiative, told Al Jazeera ahead of the ruling.\n“They also hope that they will no longer face displacement and arbitrary killings in Rakhine State,” he said.\nCan the ICJ compel Myanmar to comply with this ruling?\nThe ICJ cannot enforce its rulings, but they do carry weight: The Gambia could now table the case at the United Nations Security Council and request action.\nThis ruling is especially significant because the 1948 Genocide Convention requires proof of the specific intent to destroy – in whole or in part – a national, ethnic, racial or religious group. That requirement is notoriously difficult to prove, and has contributed to the ICJ never having held a state responsible for committing genocide.\nIn 2007, for example, the court ruled that Serbia violated the Convention by failing to prevent or punish genocide committed by Bosnian Serb troops in Srebrenica but that the state itself did not commit the act – even though UN tribunals found individuals culpable for genocide.\nThursday’s ruling could, therefore, have important implications for South Africa’s genocide case against Israel over its war on Gaza.\nWho are the Rohingya?\nThe Rohingya are a largely Muslim ethnic group based primarily in Myanmar’s western Rakhine State, which shares a border with Bangladesh.\nUntil their forced displacement in 2017, there wer",
-   "source": "Al Jazeera",
-   "category": "World",
-   "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya?traffic_source=rss",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-19T073149Z_286826429_RC2VQOA5KMPN_RTRMADP_3_MYANMAR-ROHINGYA-WORLD-COURT-1795076043.jpg?resize=1920%2C1440",
-   "time": "2026-11-19T14:31:47+00:00",
-   "buzz": 1,
-   "ts": 1795098707,
-   "hot": false
-  },
-  {
-   "id": "6f4f64ce6000",
-   "title": "Anthropic begins trading as $1.5 trillion company in biggest IPO on record",
-   "summary": "Anthropic begins trading as $1.5 trillion company in biggest IPO on record\nAnthropic began trading on the Nasdaq Thursday after pricing its IPO at $83 per share, valuing the artificial intelligence giant at $1.5 trillion and surpassing SpaceX as the largest initial public offering on record. The IPO",
-   "text": "Anthropic begins trading as $1.5 trillion company in biggest IPO on record\nAnthropic began trading on the Nasdaq Thursday after pricing its IPO at $83 per share, valuing the artificial intelligence giant at $1.5 trillion and surpassing SpaceX as the largest initial public offering on record. The IPO puts to the test Wall Street's faith in the AI boom, pitting promises of the technology as an economic game-changer against fears of a market bubble and risks to humanity.\nAnthropic launched its blockbuster initial public offering on Thursday, smashing records and eclipsing SpaceX's June listing to become the largest IPO ever.\nBuzz around its Wall Street debut juiced up beaten-down stocks tied to artificial intelligence, with the tech-heavy Nasdaq rising 1.96 percent a few minutes into trading.\nThe broad-based S&P 500 was up 1.1 percent, putting it on track to break a five-day losing streak, and the Dow Jones rose 0.5 percent.\nAnthropic chief executive Dario Amodei said the company's record-breaking stock market debut would strengthen both its finances and its commitment to acting responsibly.\n“Today puts the company in a stronger financial position, and in doing so, only strengthens our resolve to do the right thing,” Amodei said at the Nasdaq office in New York's Times Square, as Anthropic's shares began trading under the ticker “ANT”.\nRead moreAnthropic files for mammoth IPO as revenues and losses mount\nThe company’s higher-than-anticipated pricing – at $83 per share – signals broad investor enthusiasm for AI stocks even amid some market uncertainty stemming from the departure of Nvidia's CEO and worries about an AI bubble.\nBut the bigger test will be how Anthropic fares on the stock market.\nAnthropic said the offering consists of 980 million shares, roughly 956 million sold by the company and the rest by selling stockholders. Proceeds totaling $81 billion put Anthropic's IPO ahead of SpaceX, which raised about $75 billion in June.\nSpaceX, however, holds a higher valuation, about $1.9 trillion as of Wednesday afternoon.\nTo display this content from YouTube, you must enable advertisement tracking and audience measurement.\nOne of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\nAnthropic decided to barrel ahead with the IPO despite jitters among some investors over market volatility, a potential regulatory crackdown by a Democratic-led Congress next year and growing anti-AI sentiment among the public.\nThen there's the spectacular downfall of one of the industry's biggest cheerleaders, former Nvidia CEO Jensen Huang, over extramarital affairs, including one with an alleged Chinese spy.\nWatch moreXi welcomes Trump: Does Nvidia scandal upend US-China AI race?\n“This is strong appetite for this major AI IPO in Anthropic, and it’s a big win for the tech sector after a white-knuckle time with Nvidia. The pricing shows strong demand among investors,” said Dan Ives, partner and senior managing director at Yorkville Ives & Co.\nThe company’s rival, OpenAI, is not planning to go public until next year.\nAnthropic already has taken on $6.2 billion in debt, which it acknowledges in financial filings as “substantial”. Adding to the strain, the company is unprofitable, at least under standard accounting rules, suggesting that its resources to pay interest and principal are limited.\nWhile the company has ample cash for now, it will likely run through it quickly if it cannot raise more soon, given its outsize spending plans. The company said it has already signed leases and other deals requiring it to spend $900 billion on computing power and infrastructure in the coming years, including $70 billion in the next 12 months.\nTo display this content from YouTube, you must enable advertisement tracking and audience measurement.\nOne of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\nAn IPO is essentially a way to raise money, instead of going into further debt. And borrowing has gotten more expensive. That’s partly due to inflation fears and partly due to the sector’s massive cash needs, which have drawn comparisons to the Gilded Age splurge on railroads.\nLenders fear that AI companies have taken on too much debt to expand while having no clear path to profitability.\nAnthropic's IPO also means its employees can begin to sell their vested stock, a payout that will make many of them millionaires. The IPO could also give Anthropic enormous resources to accelerate its expansion and potentially add billions of dollars to the fortunes of CEO Amodei and his sister and co-founder, Daniela Amodei.\nWatch moreConcerns mount over artificial intelligence as Silicon Valley sees AI boom\nFormed in 2021 by former OpenAI leaders, Anthropic is locked in a fight for dominance with that company. But both companies have plenty of other competitors, including Google, startups in the US and China and SpaceX, which has an AI business.\nAnthropic, OpenAI and SpaceX’s AI division have all lost more money than they’ve made because of the huge costs associated with building AI. That has fuelled growing concerns about a bubble forming in the sector.\nDario Amodei cautioned in September that the AI industry should slow its fast-moving development to give safety measures time to catch up. Without such a slowdown, Amodei warned, AI could be capable of letting loose a swarm of agents that could take over the internet within months.\nAmid those fears, the regulatory environment could also change for Anthropic once the new Congress is in session. Newly elected Democrats are vowing to crack down on the industry amid a backlash against data centres. And two big states offering incentives for data centres, Texas and Georgia, just elected Democratic governors vowing to stop new construction.\nWatch moreUS voters reject AI data centres: Could the backlash spread to France?\nAdding ",
-   "source": "France 24",
-   "category": "World",
-   "url": "https://www.france24.com/en/business/20261119-anthropic-begins-trading-1-5-trillion-company-biggest-ipo-record-ai",
-   "image": "https://s.france24.com/media/display/3f3e1f26-e41f-11f1-91f8-1bac47ab2f5d/w:1280/p:16x9/2026-11-19T132245Z-254191681-RC21ROAVBBO1-RTRMADP-3-ANTHROPIC-IPO-DEBUT.jpg",
-   "time": "2026-11-19T14:29:03+00:00",
-   "buzz": 1,
-   "ts": 1795098543,
    "hot": false
   },
   {
@@ -2547,20 +2631,6 @@
    "time": "2026-11-19T14:24:58+00:00",
    "buzz": 2,
    "ts": 1795098298,
-   "hot": false
-  },
-  {
-   "id": "a8d7081edde9",
-   "title": "Chef Rachel Khoo: 'You don't need fancy kitchen gadgets to cook delicious food'",
-   "summary": "Chef Rachel Khoo: 'You don't need fancy kitchen gadgets to cook delicious food'\nTo display this content from YouTube, you must enable advertisement tracking and audience measurement.\nOne of your browser extensions seems to be blocking the video player from loading. To watch this content, you may nee",
-   "text": "Chef Rachel Khoo: 'You don't need fancy kitchen gadgets to cook delicious food'\nTo display this content from YouTube, you must enable advertisement tracking and audience measurement.\nOne of your browser extensions seems to be blocking the video player from loading. To watch this content, you may need to disable it on this site.\nIssued on:\nOne of the world's best-known chefs has spoken to FRANCE 24 about her new book that proves you certainly don't need fancy kitchen gadgets to cook delicious meals. The book \"The Smallest Restaurant in Paris\" tells her own story of starting out in a tiny Parisian flat cooking food just for two people at a time. That then led to a BBC series and a decade of writing and filming cooking stories. Rachel Khoo is now a judge on \"The Great Australian Bake Off\". She spoke to us in Perspective.\nRelated keywords",
-   "source": "France 24",
-   "category": "World",
-   "url": "https://www.france24.com/en/tv-shows/perspective/20261119-chef-rachel-khoo-you-don-t-need-fancy-kitchen-gadgets-to-cook-delicious-food",
-   "image": "https://s.france24.com/media/display/1c7be816-e423-11f1-8aba-1bac47ab2f5d/w:1280/p:16x9/capture-edfa4db0.jpg",
-   "time": "2026-11-19T14:24:12+00:00",
-   "buzz": 1,
-   "ts": 1795098252,
    "hot": false
   },
   {
@@ -2615,7 +2685,7 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYm5rbUZYWWRVNEJYaldSNE91S3B1V21NMHZ0ZUkzQjluVmlkVWVUWkJtUjhybXNPVXhyNHdjTGxEWVhEajk3eXkzLTl5dHl0MDBBY1IwS21McWF5Q3V1MWpKdVhaVGRnT3I3NnpWQnB6a3hOLTBQaW5VU1BhZEd0TDQwbGxrRzdZV0pHa3kyOA?oc=5",
    "image": null,
    "time": "2026-11-19T14:12:57+00:00",
-   "buzz": 1,
+   "buzz": 2,
    "ts": 1795097577,
    "hot": false
   },
@@ -2690,6 +2760,20 @@
    "hot": false
   },
   {
+   "id": "97f5040f46b6",
+   "title": "Opposition leaders walk out of IEBC talks over 2027 election preparedness",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQNFF3YUxzZjdXLU1XOXgyR1A0N1dhXy1FWGc0RWp5dnE0dkhUWVI0dU5iLVg1eGtMRXczNDRnbnkySFA2QTJHUFZsemdqZk9wb1dMdXQ5WmVJb1dCcVlYbFRiWTlnMzE0X0NJVl9lSGZpRmR4X3lzVFlJMGx2QXVzc3VTWTg3QjBfSW9EUWFFeUNuSXBITmtXN1BGdGlteWpEVEJBSXlweEJaUWlrN0hrbVVjTDFMWnFsNk",
+   "text": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQNFF3YUxzZjdXLU1XOXgyR1A0N1dhXy1FWGc0RWp5dnE0dkhUWVI0dU5iLVg1eGtMRXczNDRnbnkySFA2QTJHUFZsemdqZk9wb1dMdXQ5WmVJb1dCcVlYbFRiWTlnMzE0X0NJVl9lSGZpRmR4X3lzVFlJMGx2QXVzc3VTWTg3QjBfSW9EUWFFeUNuSXBITmtXN1BGdGlteWpEVEJBSXlweEJaUWlrN0hrbVVjTDFMWnFsNkJOaVE0SDZqX3NZck1SU2xsaGNRUQ?oc=5\" target=\"_blank\">Opposition leaders walk out of IEBC talks over 2027 election preparedness</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Standard</font>",
+   "source": "The Standard",
+   "category": "Kenya",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNFF3YUxzZjdXLU1XOXgyR1A0N1dhXy1FWGc0RWp5dnE0dkhUWVI0dU5iLVg1eGtMRXczNDRnbnkySFA2QTJHUFZsemdqZk9wb1dMdXQ5WmVJb1dCcVlYbFRiWTlnMzE0X0NJVl9lSGZpRmR4X3lzVFlJMGx2QXVzc3VTWTg3QjBfSW9EUWFFeUNuSXBITmtXN1BGdGlteWpEVEJBSXlweEJaUWlrN0hrbVVjTDFMWnFsNkJOaVE0SDZqX3NZck1SU2xsaGNRUQ?oc=5",
+   "image": null,
+   "time": "2026-11-19T13:57:55+00:00",
+   "buzz": 3,
+   "ts": 1795096675,
+   "hot": true
+  },
+  {
    "id": "cbf97a5e1431",
    "title": "Durham International School Kenya Announces 8 Job Vacancies for Teachers, School Leaders and Support Professionals",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxQVXZNSFQ2eG1DcjI3NjY0a2JwLVFFTEdCQzlsd3RxeHVWRU4xRlVNZ0VwQnhIYTNQdzdUWjJVUGVXZl9MY3dsaVJoQ00zUXBKa2t1QTE1WDVXOUh5TlNqWVpVS3o3RkZfSnlZR085VkZRZkt3aVd0UmM4NlhKMmpVVDViVlhUQkt3X0V2UXRNb0ZVTEwxVVlCdG5Tb0VwSVN0UGc5cFBhcU9wQlFtTHlCSTlEMW1jcnhsc0",
@@ -2757,6 +2841,20 @@
    "time": "2026-11-19T13:50:00+00:00",
    "buzz": 1,
    "ts": 1795096200,
+   "hot": false
+  },
+  {
+   "id": "e04f648ba267",
+   "title": "Anthropic IPO: Valuation History, Share Price & Date",
+   "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXk0TVkwOVdUQmpBNDdhSzZNYm5NODYyQzRDamhSUHNhQk05TjdFODdVYUN4NDdjOFZPdDJFX2NfeHAtUlNRZDlVVWNqQkFRMVYzTU40MDFfUjFRZkdNTG9zaHVEeUlJS05PZTNYa3BzSVZtM1R0VlFpZk96dzl2b212NmtxeXNSYmtNOHNmS015alVCdFE?oc=5\" target=\"_blank\">Anthropic IPO: Valuation",
+   "text": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXk0TVkwOVdUQmpBNDdhSzZNYm5NODYyQzRDamhSUHNhQk05TjdFODdVYUN4NDdjOFZPdDJFX2NfeHAtUlNRZDlVVWNqQkFRMVYzTU40MDFfUjFRZkdNTG9zaHVEeUlJS05PZTNYa3BzSVZtM1R0VlFpZk96dzl2b212NmtxeXNSYmtNOHNmS015alVCdFE?oc=5\" target=\"_blank\">Anthropic IPO: Valuation History, Share Price & Date</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">www.equiti.com</font>",
+   "source": "www.equiti.com",
+   "category": "AI",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdXk0TVkwOVdUQmpBNDdhSzZNYm5NODYyQzRDamhSUHNhQk05TjdFODdVYUN4NDdjOFZPdDJFX2NfeHAtUlNRZDlVVWNqQkFRMVYzTU40MDFfUjFRZkdNTG9zaHVEeUlJS05PZTNYa3BzSVZtM1R0VlFpZk96dzl2b212NmtxeXNSYmtNOHNmS015alVCdFE?oc=5",
+   "image": null,
+   "time": "2026-11-19T13:47:37+00:00",
+   "buzz": 1,
+   "ts": 1795096057,
    "hot": false
   },
   {
@@ -2853,7 +2951,7 @@
    "url": "https://capitalfm.africa/opposition-leaders-walk-out-of-iebc-talks-over-disputed-agenda/?utm_source=rss&utm_medium=feed&utm_campaign=feed-news",
    "image": "https://capitalfm.africa/wp-content/uploads/2026/11/gachagua-walk-out-1200x630.jpeg",
    "time": "2026-11-19T13:30:26+00:00",
-   "buzz": 1,
+   "buzz": 2,
    "ts": 1795095026,
    "hot": false
   },
@@ -3208,20 +3306,6 @@
    "hot": false
   },
   {
-   "id": "c2cac420ed5b",
-   "title": "Frontier Minerals eyes local refining of Mrima Hill rare earths to boost Kenya’s mineral value",
-   "summary": "NAIROBI, Kenya, Nov 19 – A US-led consortium selected to develop the mineral-rich Mrima Hill deposit in Kwale County has pledged to establish mineral processing and refining capacity in Kenya, in a move aimed at retaining more value from the country’s strategic mineral resources.\nFrontier Minerals C",
-   "text": "NAIROBI, Kenya, Nov 19 – A US-led consortium selected to develop the mineral-rich Mrima Hill deposit in Kwale County has pledged to establish mineral processing and refining capacity in Kenya, in a move aimed at retaining more value from the country’s strategic mineral resources.\nFrontier Minerals Consortium, comprising Bunker Hill Mining Corp., American Resources Corporation and ReElement Technologies Corporation, said its proposal would prioritise in-country processing, Kenyan employment, local supplier opportunities and technical skills development.\nThe consortium’s selection by the Government marks the next phase in efforts to develop Mrima Hill, which contains deposits of niobium, rare earth elements and other minerals considered important to global industrial and technology supply chains.\nHowever, the selection does not grant the consortium an immediate licence to prospect or mine, with the company required to complete statutory licensing procedures, community consultations and environmental assessments before undertaking exploration activities.\nBrad Barnett, Managing Member of Frontier Minerals, said the consortium intended to maximise the economic benefits of the mineral deposit through local value addition.\n“We will undertake a thoroughly studied and respectful approach to optimising the value of this critical mineral deposit, with a focus on delivering value chain capture for Kenya, including processing and refining of minerals in-country,” Barnett said.\nHe said the consortium would also invest in capacity-building and opportunities for Kenyan workers, businesses and the wider economy.\n“We intend to create lasting opportunities for Kenyan workers, businesses and the wider economy through capacity-building and targeted investment, while prioritising environmental management and performance.”\nThe proposed approach would involve developing processing and refining facilities in Kenya rather than exporting mineral concentrates for processing elsewhere, potentially creating additional economic opportunities through the mineral value chain.\nFrontier said its consortium members brought together expertise in mining, critical mineral supply chains and advanced refining technologies, with ReElement Technologies providing proprietary separation and purification technology for producing high-purity critical minerals.\nThe company said its refining technology had been validated across 15 rare earth and critical minerals and was already being used to produce multiple high-purity materials for customers.\nIt cited its refining facility in Marion, Indiana, in the United States, as a potential reference model for deploying advanced processing capacity in Kenya, subject to the necessary approvals.\nThe consortium said a full feasibility study would determine the most appropriate mining and processing methods, infrastructure requirements, project costs and commercial viability.\nThe study would also assess environmental, social and cultural heritage considerations, alongside opportunities for Kenyan participation in the project.\nCommunity consent\nFrontier acknowledged the environmental, cultural and social significance of Mrima Hill, saying meaningful engagement with host communities would be central to the project’s development.\nThe company said it would undertake environmental and social assessments to identify potential impacts and establish mitigation measures in line with Kenyan laws and regulatory requirements.\n“Frontier recognises the environmental, cultural and social significance of Mrima Hill and the importance of ensuring that local communities are meaningfully involved as the project progresses,” it said.\n“The consortium is committed to engaging openly and transparently with local communities and the relevant authorities.”\nThe consortium said its selection marks an “important milestone in the development of Mrima Hill and the beginning of the next phase of work.”\nIts selection follows the Government’s conclusion of a competitive tendering process for strategic mineral development projects across the country.\nMining, Blue Economy and Maritime Affairs Cabinet Secretary Hassan Ali Joho announced that the Ministry had issued Notices of Intention to Award to the highest-scoring responsive bidders after completing the evaluation and statutory procurement reviews.\nBesides Mrima Hill, a joint venture between Fangda Special Steel Technology Co. Ltd and Sinohydro Corporation was selected for the Kang’ura Chromite Development Project in Samburu County and the Kamacabi Copper Development Project in Tharaka Nithi County.\nThe tendering process, however, did not produce qualifying responsive bids for the Lali Hills Manganese Project in Tana River County and the Kiritiri Coltan Project in Embu County.\nJoho said successful bidders would be required to engage host communities, landowners, county leadership and other stakeholders and obtain the necessary consents under the Mining Act before applying for prospecting licences.\n“An award at the end of a tender process is not a licence to immediately break ground; rather, it is the gateway to meaningful local partnership and strict regulatory compliance,” he said.\nThe prospecting licence applications will be submitted through the Ministry’s Online Mining Cadastre portal and subjected to scrutiny by the Mineral Rights Board, which will make recommendations before the Cabinet Secretary grants the licences.\nFrontier said it was ready to begin the licensing process, which will include securing a Prospecting Licence, obtaining the required community consents and an Environmental and Social Impact Assessment licence from the National Environment Management Authority (NEMA).\nExploration and the full feasibility study can only proceed after the necessary approvals have been secured.\nA subsequent Mining Licence application would be supported by the feasibility study and a Community Development Agreement.",
-   "source": "Capital FM",
-   "category": "Kenya",
-   "url": "https://capitalfm.africa/frontier-minerals-eyes-local-refining-of-mrima-hill-rare-earths-to-boost-kenyas-mineral-value/?utm_source=rss&utm_medium=feed&utm_campaign=feed-news",
-   "image": "https://capitalfm.africa/wp-content/uploads/2026/07/9wqSGibrlumhqqaWMaCXxaQsad7M-40ceMo9knC7EV2mT1SVtOK-BQ5eNqUFzDM6UN9uuerAnseMDMsmN-Pckz06XNUbt7qVFDy35ZddsLAARhGK5qsah4zfaVUeFi0wOzffeawi9h3q6SEoVtScrdCHbG-RUgjfUl-InoK80gcMgXzaaKBpTA7s4zLjlwG3.jpg",
-   "time": "2026-11-19T12:21:48+00:00",
-   "buzz": 1,
-   "ts": 1795090908,
-   "hot": false
-  },
-  {
    "id": "06bda472e4d0",
    "title": "Gonzalo García: ‘I love Craven Cottage – the fans can reach out and touch you’",
    "summary": "The first thing Rita Hayworth’s great nephew says when he walks in is: “Sorry I’m late.” Gonzalo García is not late, but it’s very like him: he is impeccably polite, accommodating, and there’s an almost gentle quality to him, a calm that’s not common but can help, especially in moments when the pres",
@@ -3236,20 +3320,6 @@
    "hot": false
   },
   {
-   "id": "b718a42efea2",
-   "title": "\"Raila would have been so proud\": Arsenal legend brings trophy to Nairobi",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOGFnQ201NmtvY3lvZkVWc1pzR1pXSHd4dDFGUGN0YnFhdHctcTNPLUx4VEJtWlFLVWhHWG8tTVZOR0pfZW8wdkxzSmRNYjlHeDFUbHduTERTMlBCdFRmS3JwRTNHYkFCS1AtSEZHaHpqcVpua3k0aURlXzgzRWtqb1FWX0xsMHc5dWgzTzRDbExpODB2WWQyNVZpdHZuOFZtTm5BVXhTcWJqQmdvRXpsclEyeWNMYnoxcU",
-   "text": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOGFnQ201NmtvY3lvZkVWc1pzR1pXSHd4dDFGUGN0YnFhdHctcTNPLUx4VEJtWlFLVWhHWG8tTVZOR0pfZW8wdkxzSmRNYjlHeDFUbHduTERTMlBCdFRmS3JwRTNHYkFCS1AtSEZHaHpqcVpua3k0aURlXzgzRWtqb1FWX0xsMHc5dWgzTzRDbExpODB2WWQyNVZpdHZuOFZtTm5BVXhTcWJqQmdvRXpsclEyeWNMYnoxcU5udWF0S3dvR1RjWWp1TmctdXBIVDhs?oc=5\" target=\"_blank\">\"Raila would have been so proud\": Arsenal legend brings trophy to Nairobi</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tuko News</font>",
-   "source": "Tuko News",
-   "category": "Kenya",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOGFnQ201NmtvY3lvZkVWc1pzR1pXSHd4dDFGUGN0YnFhdHctcTNPLUx4VEJtWlFLVWhHWG8tTVZOR0pfZW8wdkxzSmRNYjlHeDFUbHduTERTMlBCdFRmS3JwRTNHYkFCS1AtSEZHaHpqcVpua3k0aURlXzgzRWtqb1FWX0xsMHc5dWgzTzRDbExpODB2WWQyNVZpdHZuOFZtTm5BVXhTcWJqQmdvRXpsclEyeWNMYnoxcU5udWF0S3dvR1RjWWp1TmctdXBIVDhs?oc=5",
-   "image": null,
-   "time": "2026-11-19T12:12:30+00:00",
-   "buzz": 1,
-   "ts": 1795090350,
-   "hot": false
-  },
-  {
    "id": "64e52204b485",
    "title": "Gemini 4 Neon: Google DeepMind’s Frontier Coding Agent",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPRnRnVXc0YnpTb29fcWVIOTAtSzQtMUdFcWlFazNNQU1DZGRBQk53RU1Cd2p5UFM5Snk4SXpNVS1wTDZGTnozU1I0c1V4bXhzTFF1RjZiYThibWs3SEFqLU5xbU9uR2JxN2Q5eFI0YVQyRlozY28tOE5NSFpnSDBxY0pvQXVuM2M?oc=5\" target=\"_blank\">Gemini 4 Neon: Google DeepMind’s Frontier Co",
@@ -3259,22 +3329,8 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRnRnVXc0YnpTb29fcWVIOTAtSzQtMUdFcWlFazNNQU1DZGRBQk53RU1Cd2p5UFM5Snk4SXpNVS1wTDZGTnozU1I0c1V4bXhzTFF1RjZiYThibWs3SEFqLU5xbU9uR2JxN2Q5eFI0YVQyRlozY28tOE5NSFpnSDBxY0pvQXVuM2M?oc=5",
    "image": null,
    "time": "2026-11-19T12:07:09+00:00",
-   "buzz": 2,
-   "ts": 1795090029,
-   "hot": false
-  },
-  {
-   "id": "044a0cea2ae0",
-   "title": "Changing lives: Kenyans borrow KSh 492b in mobile loans from KCB Bank",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNbm5lYkZ4QkNYbjVDaEJYcHNTcTFySms0VGN3NkRXUWtVY0VIMHIwX0JPaE52QmFaamZrMUhWS20zSTE3bllWTHp1TS1tSUl1MUh6eWVEVnVtVkNYTDJVNkNFSFUyRmhRalI3dFpzV0dPUkxKRl9aVTJob0Y5dXp3RS1SZHIxMTBlTXIzS2ZXNmFhdWNDOHkwdGxITjdHRVRyS0lHNlJHOGsxX0tudWFV?oc=5\" target=",
-   "text": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNbm5lYkZ4QkNYbjVDaEJYcHNTcTFySms0VGN3NkRXUWtVY0VIMHIwX0JPaE52QmFaamZrMUhWS20zSTE3bllWTHp1TS1tSUl1MUh6eWVEVnVtVkNYTDJVNkNFSFUyRmhRalI3dFpzV0dPUkxKRl9aVTJob0Y5dXp3RS1SZHIxMTBlTXIzS2ZXNmFhdWNDOHkwdGxITjdHRVRyS0lHNlJHOGsxX0tudWFV?oc=5\" target=\"_blank\">Changing lives: Kenyans borrow KSh 492b in mobile loans from KCB Bank</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tuko News</font>",
-   "source": "Tuko News",
-   "category": "Kenya",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbm5lYkZ4QkNYbjVDaEJYcHNTcTFySms0VGN3NkRXUWtVY0VIMHIwX0JPaE52QmFaamZrMUhWS20zSTE3bllWTHp1TS1tSUl1MUh6eWVEVnVtVkNYTDJVNkNFSFUyRmhRalI3dFpzV0dPUkxKRl9aVTJob0Y5dXp3RS1SZHIxMTBlTXIzS2ZXNmFhdWNDOHkwdGxITjdHRVRyS0lHNlJHOGsxX0tudWFV?oc=5",
-   "image": null,
-   "time": "2026-11-19T12:04:38+00:00",
    "buzz": 1,
-   "ts": 1795089878,
+   "ts": 1795090029,
    "hot": false
   },
   {
@@ -3964,20 +4020,6 @@
    "hot": false
   },
   {
-   "id": "1ad1b98ecf57",
-   "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1Bbnk0V2swZmlhb0FvYzd5NFFqUHlaVW10dGtvVUx1R25ROF9kcWtzaWdKczJwV3dCQnhHZ29lV1RoNFpCTUdpcTdMM0RDTkxXalZWRTU5VExsUHJBam9vLVhHaWJzUGtCeTBKQ09qcVY5WldMNnc3UtIBeEFVX3lxTE1Bbnk0V2swZmlhb0FvYzd5NFFqUHlaVW10dGtvVUx1R25ROF9kcWtzaWdKczJwV3dCQnhHZ29lV1",
-   "text": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1Bbnk0V2swZmlhb0FvYzd5NFFqUHlaVW10dGtvVUx1R25ROF9kcWtzaWdKczJwV3dCQnhHZ29lV1RoNFpCTUdpcTdMM0RDTkxXalZWRTU5VExsUHJBam9vLVhHaWJzUGtCeTBKQ09qcVY5WldMNnc3UtIBeEFVX3lxTE1Bbnk0V2swZmlhb0FvYzd5NFFqUHlaVW10dGtvVUx1R25ROF9kcWtzaWdKczJwV3dCQnhHZ29lV1RoNFpCTUdpcTdMM0RDTkxXalZWRTU5VExsUHJBam9vLVhHaWJzUGtCeTBKQ09qcVY5WldMNnc3Ug?oc=5\" target=\"_blank\">Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MarkTechPost</font>",
-   "source": "MarkTechPost",
-   "category": "AI",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Bbnk0V2swZmlhb0FvYzd5NFFqUHlaVW10dGtvVUx1R25ROF9kcWtzaWdKczJwV3dCQnhHZ29lV1RoNFpCTUdpcTdMM0RDTkxXalZWRTU5VExsUHJBam9vLVhHaWJzUGtCeTBKQ09qcVY5WldMNnc3UtIBeEFVX3lxTE1Bbnk0V2swZmlhb0FvYzd5NFFqUHlaVW10dGtvVUx1R25ROF9kcWtzaWdKczJwV3dCQnhHZ29lV1RoNFpCTUdpcTdMM0RDTkxXalZWRTU5VExsUHJBam9vLVhHaWJzUGtCeTBKQ09qcVY5WldMNnc3Ug?oc=5",
-   "image": null,
-   "time": "2026-11-19T06:52:26+00:00",
-   "buzz": 2,
-   "ts": 1795071146,
-   "hot": false
-  },
-  {
    "id": "157bba563f35",
    "title": "Bancroft speaks again after explosive Sandpapergate claims",
    "summary": "Cameron Bancroft: Former Australia batter says he feels 'very free' after 'telling the truth' with Sandpapergate claims\nCameron Bancroft says he \"never meant to point fingers or implicate others; \"I just wanted to, for my own peace, to tell the truth;\" in making his statement on the 2018 ball tamper",
@@ -4020,20 +4062,6 @@
    "hot": false
   },
   {
-   "id": "81223ffc01a4",
-   "title": "Grok Hijab Lawsuit: Reported Claims Against xAI",
-   "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2RwSzVMZ1ZmcEVXdDFkMGN1TDVPVlNONHZJckxxN2F1LUlCT0ZySjhTd2p3NVdJZ192UW04aGxrR3lKWW94NDFtMm1ETlZzemNsV3BmckhnaThrNU5TS3A4VWJ4WkNxRm13Q3FmSndjcm1HZS1hVEN4a1U0cjZpT1JhTy16ZGJpaWtYeFdIMVZXcnoxU1E?oc=5\" target=\"_blank\">Grok Hijab Lawsuit: Repo",
-   "text": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2RwSzVMZ1ZmcEVXdDFkMGN1TDVPVlNONHZJckxxN2F1LUlCT0ZySjhTd2p3NVdJZ192UW04aGxrR3lKWW94NDFtMm1ETlZzemNsV3BmckhnaThrNU5TS3A4VWJ4WkNxRm13Q3FmSndjcm1HZS1hVEN4a1U0cjZpT1JhTy16ZGJpaWtYeFdIMVZXcnoxU1E?oc=5\" target=\"_blank\">Grok Hijab Lawsuit: Reported Claims Against xAI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NeoTeo</font>",
-   "source": "NeoTeo",
-   "category": "AI",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2RwSzVMZ1ZmcEVXdDFkMGN1TDVPVlNONHZJckxxN2F1LUlCT0ZySjhTd2p3NVdJZ192UW04aGxrR3lKWW94NDFtMm1ETlZzemNsV3BmckhnaThrNU5TS3A4VWJ4WkNxRm13Q3FmSndjcm1HZS1hVEN4a1U0cjZpT1JhTy16ZGJpaWtYeFdIMVZXcnoxU1E?oc=5",
-   "image": null,
-   "time": "2026-11-19T06:24:11+00:00",
-   "buzz": 2,
-   "ts": 1795069451,
-   "hot": false
-  },
-  {
    "id": "14702072f670",
    "title": "Kenya Star Jumps To SA Coach's Defence Amid Racism Allegations",
    "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPNlBWWEc0b0dEWXo4dU5KUmpUaGlJaENYMWlJZUtCVWIydkhxZjRIc09QYmNXZUtOWmR2WXU5SkM5VnJkY1AyLUNlQXdkRnF2RG03V2lEdXh1TWZ5S29kZEtxdEpHMXFRWXhSdTAyN2ZfNzNjcGVKSHRjSE5Vb3RvRzByQm1mazNhbTRsTzNPWjlGY1BPYWF0RnNJZlNheXFmNDFvZG5hUC03dTRaanhxb2VIV1h3Tjd4SX",
@@ -4073,20 +4101,6 @@
    "time": "2026-11-19T06:00:00+00:00",
    "buzz": 1,
    "ts": 1795068000,
-   "hot": false
-  },
-  {
-   "id": "fb9b88d4f801",
-   "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
-   "summary": "15 million web servers on one VM - smoltcp, DPDK, AF_XDP\nPut a web server online and everyone starts trying to hack it. Why? A basic rule of economics. Short supply, big demand - there aren’t enough web servers for everyone. Let’s run a web server for every human on the planet, all 8 billion of them",
-   "text": "15 million web servers on one VM - smoltcp, DPDK, AF_XDP\nPut a web server online and everyone starts trying to hack it. Why? A basic rule of economics. Short supply, big demand - there aren’t enough web servers for everyone. Let’s run a web server for every human on the planet, all 8 billion of them. I couldn’t get funding, so we’re bootstrapping. The goal is to run 15 million web servers on one VM with 10GB of RAM and 1 CPU core. If we succeed, I’ll find some RAM from old microwaves around the house and we’ll scale it up so everyone can have their own web server. Demand will drop to zero and cybersecurity will be solved once and for all.\nWeb server\nInstead of vibe coding it all, let’s use an ancient technique called learning. First of all, what is a web server? There are a few essential syscalls.\n- listen - syscall, asks kernel to listen for connections on a socket\n- accept - syscall, accepts a connection on a socket\n- recv - receives data from a socket\n- send - sends data\n- close - closes\nWhat is a syscall? A function that is executed by the OS kernel. Whatever fancy language or library you use for HTTP, it all comes down to those syscalls (well, yes, but actually no). Let’s use C to make it all explicit. We start listening, then read from the socket in a loop and always reply with OK.\nint main(void)\n{\n    // We use port 0 which makes OS return any available port\n    int server = socket(AF_INET, SOCK_STREAM, 0); \n    if (listen(server, 128) < 0)\n        return 1;\n    const char reply[] = \"HTTP/1.0 200 OK\\r\\nContent-Length: 2\\r\\n\\r\\nOK\";\n    for (int client; (client = accept(server, NULL, NULL)) >= 0;) {\n        if (recv(client, NULL, 4096, MSG_TRUNC) > 0)\n            send(client, reply, sizeof reply - 1, MSG_NOSIGNAL);\n        close(client);\n    }\n}\nIt couldn’t be simpler: listen on a socket, accept a connection, read the data, send a reply, close the client connection, and repeat. It gives us around 65k RPS. Now that we’ve learned everything, let’s finish the article and call it a day:\n$ for i in $(seq 1 15_000_000); do echo $i; ./server &; done\n...\n...\n28232\nprogram exited with error 1\nHm, why did listen fail? Ah, we’ve run out of ports! We’re using port=0, so the kernel picks an available port from ip_local_port_range.\n$ sysctl net.ipv4.ip_local_port_range\nnet.ipv4.ip_local_port_range = 32768    60999\nWhy are so many ports skipped? Historically, port 0 was created for outbound connections. When you call connect('example.com', 80), Linux connects to the remote server (the sending part) and then allocates a random port on the host from ip_local_port_range to receive data (the receiving part). There are a few reasons the default range is small.\n- Port 0 is special. You cannot listen on it (actually, you can - https://acid.vegas/blog/the-port-that-does-not-exist/).\n- Ports 1-1024 require root.\n- Ports 1024-32768 are skipped to keep dynamically allocated ports from conflicting with existing apps. You don’t want to call connect('example.com') and end up allocating port 3306 to receive incoming data. mysql cannot start because you have example.com open in your Firefox would make for a confusing UX.\n- Ports 60999 - 65535 are excluded for historical reasons dating back to IP Masquerading.\nNothing prevents us from overriding the range and using 1-65535, but that’s still a bit short of 15 million. A UDP server and a TCP server can use the same port, so we can double that to 128k. We could run a proxy in front to forward requests to the right process (virtual hosting, yay), but these are all ancient techniques - in the AI era, whenever you have a software problem, you just throw money at the hardware. Let’s simply connect 15M/32k=450 new network cards to the server.\nThe 65k limit comes from the TCP standard. A port is a u16, so even if we hack the kernel with find '*.c' -exec sed -i 's/u16/u32/' \\; to support bigger port numbers, normal clients still wouldn’t be able to connect. Each listening server is identified by a (protocol, IP, port) tuple. That explains how we can use the same port for UDP and TCP. It also means we can use a bunch of different IPs for our web servers. If we connect 450 network cards to the server, we’ll get 450 unique IP addresses and be able to listen on 15 million unique addresses!\nUPD. I’ve heard from readers that the network card is the ONLY hardware component that didn’t get 100 times more expensive in the last year. Can’t we avoid ruining that too and solve this in software?\nLet’s use a beautiful technology called AnyIP, which lets us listen on a whole subnet. Many VPS and dedicated server providers routinely give you a whole TCPv6 subnet. We can simply run sudo ip -6 route add local 2001:db8:1234:5678::/64 dev lo to get 18 quintillion addresses (plus or minus one) to listen on. You can do the same for IPv4 - acquiring a subnet with 15M addresses would cost around $250 million, so adjust the command for your environment. We’ll change our server to pick the nth IP from our range:\n// Read IP index from CLI, shift base IP by it\nint i = read_cli_param(argv[1]);\nconst uint32_t base_ip = 0x0a400001;  // ex. 10.64.0.1\naddr.sin_addr.s_addr = htonl(first_ip + i);  // shift, ex. 10.64.0.2\nAnd now we can finally finish the article.\n$ for i in $(seq 1 15_000_000); do echo $i; ./server $i &; done\n...\n...\nOut of memory\nHm, one server consumes 1.5MB of RAM, so running that many would take… 20TB of RAM, which is a few bytes more than our 10GB budget.\nRuntime\nBy pure coincidence (what are the odds?), I explained in Running 10 million Codex CLIs on one server - LFI processes why running millions of processes creates too much overhead. The answer is to run them all in one process inside a custom runtime, much as V8 can run millions of guests in a single process. In Userland Linux scheduler in Rust, I showed how to build a specialised userland scheduler and switch between tasks with the absolute minimum amount of RAM per task.\nTLDR: We’re using LFI for sandboxing. It gives us memory i",
-   "source": "Hacker News",
-   "category": "AI",
-   "url": "https://kapteko.com/15-million-webservers/",
-   "image": "https://kapteko.com/15-million-webservers/webservers-benchmark-social.png",
-   "time": "2026-11-19T05:56:36+00:00",
-   "buzz": 1,
-   "ts": 1795067796,
    "hot": false
   },
   {
@@ -4140,20 +4154,6 @@
    "category": "Football",
    "url": "https://www.espn.com/soccer/story/_/id/50525211/us-coach-arena-federation-clue-next-coach",
    "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1118%2Fr1747871_1296x729_16%2D9.jpg",
-   "time": "2026-11-19T00:31:43+00:00",
-   "buzz": 1,
-   "ts": 1795048303,
-   "hot": false
-  },
-  {
-   "id": "5fc9535e5d37",
-   "title": "Pochettino arrives at Man United, he vows: 'You will see, give me time'",
-   "summary": "Mauricio Pochettino arrived at Manchester United for his first day as head coach on Wednesday but said he requires \"time\" to turn the club's fortunes around.\nPochettino's final act in charge of the United States national side was a 2-0 victory over Haiti in Cincinnati on Tuesday night.\nA plane carry",
-   "text": "Mauricio Pochettino arrived at Manchester United for his first day as head coach on Wednesday but said he requires \"time\" to turn the club's fortunes around.\nPochettino's final act in charge of the United States national side was a 2-0 victory over Haiti in Cincinnati on Tuesday night.\nA plane carrying Pochettino arrived at Manchester Airport on Wednesday afternoon. He headed to the club's training ground, Carrington, as the replacement for the sacked Michael Carrick before his first game leading United on Sunday against Liverpool at Anfield in the Premier League.\nOn Tuesday night, Pochettino was told by former Manchester City and United States player DaMarcus Beasley that \"Manchester is blue, it will always be blue.\"\nHe responded: \"You will see. Give me time.\n\"The new challenge is a big challenge, but at the same time it's adrenalin you want to feel. We need to add our common sense... we know the situation is not a situation that deserves to be a club like Manchester United, the fan base is amazing.\"\nPochettino added: \"The mentality is to learn from everyone. You need to have an open mind because I think the players can teach us every day, we are much better coaching staff now.\n\"Football is about attitude, and it's about the approach. It's about connection, feelings and communication.\"\nUpon arrival at Carrington, Pochettino said he is \"very excited to be here. It's an honour. It's a privilege to be in this amazing club. Yes, looking forward to start to work.\"\nUnited have confirmed Jesus Perez, Miguel D'Agostino, Toni Jimenez, Alec Scott and Sebastiano Pochettino as Pochettino's staff.\nMauricio Pochettino starts work at Man United on Wednesday\nPochettino was also asked about whether he can improve United's running statistics, which were criticised by ex-boss Carrick after a drab 4-1 loss to Como in the Champions League.\nIn response to Bruno Fernandes' questioning of the team's tactics, Carrick said: \"Whatever system you play, whatever tactics you play, if you don't run, and you don't run forward, and you don't run back, you ain't going to win.\"\nPochettino said on Tuesday night: \"What I can talk in general, football is very complex and I think it's not important if you run or not run.\n\"You need to run well, you need to run with an objective, you need to run together. Then you need to play, you need to know what you need to do, you need to express your talent. The mindsets are so important.\"\nPochettino led the U.S. to the round of 16 at last summer's World Cup on home soil.\nBut he is now returning to the Premier League where he has previously coached Southampton, Tottenham Hotspur and Chelsea.\n- Mauricio Pochettino can't fix Man United on his own, the owners have to do their jobs\n- JJ Gabriel confirms Man United exit as Real Madrid transfer nears\n- Wayne Rooney reveals he contemplated suicide at height of Man United career\nThe former Argentina international, who also coached Lionel Messi, Neymar and Kylian Mbappé at Paris Saint-Germain between 2021 and 2022, takes over at United with the club in the relegation zone after 10 games.\nWhat are Pochettino's first five games in charge of Man United?\n- Sunday, Nov. 22 -- away at Liverpool -- Premier League\n- Wednesday, Nov. 25 -- away at CP Sporting -- Champions League\n- Saturday, Nov. 28. -- at home to Brentford -- Premier League\n- Wednesday, Dec. 2 -- away at Newcastle -- Premier League\n- Saturday, Dec. 5. -- at home to Coventry -- Premier League",
-   "source": "ESPN Soccer",
-   "category": "Football",
-   "url": "https://www.espn.com/soccer/story/_/id/50518493/mauricio-pochettino-man-united-premier-league",
-   "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F1118%2Fr1747663_1296x729_16%2D9.jpg",
    "time": "2026-11-19T00:31:43+00:00",
    "buzz": 1,
    "ts": 1795048303,
